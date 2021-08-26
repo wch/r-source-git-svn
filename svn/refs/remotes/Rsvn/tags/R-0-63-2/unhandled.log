@@ -1,0 +1,5 @@
+r3309
+  -empty_dir: Attic
+  -empty_dir: debian/files
+  -empty_dir: doc/manual/ABOUT.tex
+  -empty_dir: doc/manual/Man.tex

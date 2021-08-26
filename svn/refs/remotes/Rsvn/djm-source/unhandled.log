@@ -1,0 +1,191 @@
+r29864
+  -empty_dir: Attic
+r29865
+r30691
+  -empty_dir: branches/djm-source/src/gnuwin32/windlgs/src/Makevars
+  -empty_dir: branches/djm-source/src/include/R_ext/RX11.h
+  -empty_dir: branches/djm-source/src/include/R_ext/Rinternet.h
+  -empty_dir: branches/djm-source/src/include/R_ext/Rlapack.h
+  -empty_dir: branches/djm-source/src/library/base/R/citation.R
+  -empty_dir: branches/djm-source/src/library/base/R/data.R
+  -empty_dir: branches/djm-source/src/library/base/data
+  -empty_dir: branches/djm-source/src/library/base/man/Formaldehyde.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/HairEyeColor.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/InsectSprays.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/LifeCycleSavings.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/OrchardSprays.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/PlantGrowth.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/Titanic.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/ToothGrowth.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/UCBAdmissions.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/USArrests.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/USJudgeRatings.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/USPersonalExpenditure.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/VADeaths.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/airquality.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/anscombe.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/attenu.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/attitude.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/cars.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/chickwts.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/citation.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/codes.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/data.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/esoph.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/euro.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/eurodist.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/faithful.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/index.search.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/infert.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/iris.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/islands.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/longley.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/morley.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/mtcars.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/packageDescription.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/phones.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/precip.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/pressure.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/quakes.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/randu.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/rivers.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/sleep.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/stackloss.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/state.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/swiss.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/trees.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/volcano.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/warpbreaks.Rd
+  -empty_dir: branches/djm-source/src/library/base/man/women.Rd
+  -empty_dir: branches/djm-source/src/library/graphics/R/device.R
+  -empty_dir: branches/djm-source/src/library/graphics/R/pictex.R
+  -empty_dir: branches/djm-source/src/library/graphics/R/postscript.R
+  -empty_dir: branches/djm-source/src/library/graphics/R/recordplot.R
+  -empty_dir: branches/djm-source/src/library/graphics/R/unix
+  -empty_dir: branches/djm-source/src/library/graphics/R/windows
+  -empty_dir: branches/djm-source/src/library/graphics/man/Devices.Rd
+  -empty_dir: branches/djm-source/src/library/graphics/man/check.options.Rd
+  -empty_dir: branches/djm-source/src/library/graphics/man/dev.Rd
+  -empty_dir: branches/djm-source/src/library/graphics/man/dev.interactive.Rd
+  -empty_dir: branches/djm-source/src/library/graphics/man/dev2.Rd
+  -empty_dir: branches/djm-source/src/library/graphics/man/dev2bitmap.Rd
+  -empty_dir: branches/djm-source/src/library/graphics/man/graphics-defunct.Rd
+  -empty_dir: branches/djm-source/src/library/graphics/man/pdf.Rd
+  -empty_dir: branches/djm-source/src/library/graphics/man/pictex.Rd
+  -empty_dir: branches/djm-source/src/library/graphics/man/postscript.Rd
+  -empty_dir: branches/djm-source/src/library/graphics/man/recordplot.Rd
+  -empty_dir: branches/djm-source/src/library/graphics/man/unix
+  -empty_dir: branches/djm-source/src/library/graphics/man/windows
+  -empty_dir: branches/djm-source/src/library/graphics/man/xfig.Rd
+  -empty_dir: branches/djm-source/src/library/methods/install.R
+  -empty_dir: branches/djm-source/src/library/stats/data
+  -empty_dir: branches/djm-source/src/library/stats/install.R
+  -empty_dir: branches/djm-source/src/library/stats/man/AirPassengers.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/BJsales.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/BOD.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/ChickWeight.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/DNase.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/EuStockMarkets.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/Harman23.cor.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/Harman74.cor.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/Indometh.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/JohnsonJohnson.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/LakeHuron.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/Loblolly.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/Nile.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/Orange.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/Puromycin.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/Theoph.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/UKDriverDeaths.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/UKLungDeaths.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/UKgas.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/USAccDeaths.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/WWWusage.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/ability.cov.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/airmiles.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/austres.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/beavers.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/co2.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/coefficients.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/discoveries.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/freeny.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/lh.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/lynx.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/make.tables.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/nhtemp.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/nottem.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/presidents.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/rock.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/se.aov.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/sunspot.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/sunspots.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/treering.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/uspop.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/zCO2.Rd
+  -empty_dir: branches/djm-source/src/library/stats/man/zcbind.ts.Rd
+  -empty_dir: branches/djm-source/src/library/stats4/R/AAA.R
+  -empty_dir: branches/djm-source/src/library/stats4/install.R
+  -empty_dir: branches/djm-source/src/library/utils/R/unix/update.packages.R
+  -empty_dir: branches/djm-source/src/library/utils/R/windows/update.packages.R
+  +dir_prop: branches/djm-source/src/library/Recommended svn:ignore *.tar.gz%0A*.tgz%0A*.ts%0A
+  +file_prop: branches/djm-source/doc/html/R-admin.html svn:mime-type text/html
+  +file_prop: branches/djm-source/doc/html/about.html svn:mime-type text/html
+  +file_prop: branches/djm-source/doc/html/faq.html svn:mime-type text/html
+  +file_prop: branches/djm-source/doc/html/index-default.html svn:mime-type text/html
+  +file_prop: branches/djm-source/doc/html/packages-head.html svn:mime-type text/html
+  +file_prop: branches/djm-source/doc/html/resources.html svn:mime-type text/html
+  +file_prop: branches/djm-source/doc/html/template.html svn:mime-type text/html
+  +file_prop: branches/djm-source/doc/html/thanks.html svn:mime-type text/html
+r39618
+r39625
+r39630
+r39631
+r39634
+r39637
+r39679
+r39687
+r39691
+r39694
+r39696
+r39697
+  -empty_dir: branches/djm-source/src/gnuwin32/fixed/dobundle.pl
+r39698
+r39699
+r39700
+r39701
+r39702
+r39709
+r39712
+r39716
+r39737
+r39738
+r39739
+r39744
+r39760
+r39853
+  +file_prop: branches/djm-source/src/library/datasets/data/crimtab.rda svn:mime-type application/octet-stream
+r39993
+  -empty_dir: branches/djm-source/src/extra/pcre/pcre_dfa_exec.c
+r39995
+r40178
+r40179
+r40181
+r40190
+r40199
+r40212
+r40213
+  -empty_dir: branches/djm-source/src/library/utils/man/tracemem.Rd
+r40214
+r40221
+r40239
+r40258
+r40259
+r40260
+r42208
+r42212
+  +dir_prop: branches/djm-source svnmerge-integrated /trunk:1-42207
+r42214
+r42224
+r42225
+r42243
+r42736

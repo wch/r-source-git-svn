@@ -1,0 +1,57 @@
+r5285
+  -empty_dir: Attic
+  -empty_dir: BUGS
+  -empty_dir: COPYING
+  -empty_dir: COPYRIGHTS
+  -empty_dir: FAQ
+  -empty_dir: INSTALL
+  -empty_dir: MIRROR-SITES
+  -empty_dir: Makeconf.in
+  -empty_dir: Makefile.in
+  -empty_dir: NEWS
+  -empty_dir: PLATFORMS
+  -empty_dir: PROJECTS
+  -empty_dir: README
+  -empty_dir: RESOURCES
+  -empty_dir: TASKS
+  -empty_dir: Y2K
+  -empty_dir: aclocal.m4
+  -empty_dir: afm
+  -empty_dir: config.site
+  -empty_dir: configure
+  -empty_dir: configure.in
+  -empty_dir: configure.mac
+  -empty_dir: configure.win
+  -empty_dir: date-stamp
+  -empty_dir: debian
+  -empty_dir: demos
+  -empty_dir: doc
+  -empty_dir: etc
+  -empty_dir: src/Makefile.in
+  -empty_dir: src/appl
+  -empty_dir: src/f2clib
+  -empty_dir: src/gnome
+  -empty_dir: src/gnuwin32
+  -empty_dir: src/include
+  -empty_dir: src/library/Makefile.in
+  -empty_dir: src/library/base
+  -empty_dir: src/library/eda
+  -empty_dir: src/library/lqs
+  -empty_dir: src/library/modreg
+  -empty_dir: src/library/mva
+  -empty_dir: src/library/profile/Makefile.in
+  -empty_dir: src/library/profile/Rprofile.mac
+  -empty_dir: src/library/profile/Rprofile.unix
+  -empty_dir: src/library/profile/Rprofile.win
+  -empty_dir: src/library/stepfun
+  -empty_dir: src/macintosh
+  -empty_dir: src/main
+  -empty_dir: src/nmath
+  -empty_dir: src/regex
+  -empty_dir: src/scripts
+  -empty_dir: src/unix
+  -empty_dir: tests
+  -empty_dir: tools
+r5286
+r6158
+r6398

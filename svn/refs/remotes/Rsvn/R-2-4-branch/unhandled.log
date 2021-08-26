@@ -1,0 +1,527 @@
+r39096
+r39098
+r39100
+r39105
+r39107
+r39108
+r39113
+r39117
+r39118
+r39121
+r39123
+r39126
+r39128
+r39130
+r39133
+r39140
+r39147
+r39151
+r39152
+r39153
+r39155
+r39158
+r39160
+r39161
+r39163
+r39166
+r39168
+r39169
+r39171
+r39173
+r39175
+r39177
+r39180
+r39183
+r39185
+r39187
+r39189
+r39191
+r39196
+r39198
+r39205
+r39209
+r39216
+r39218
+r39221
+r39223
+r39225
+r39228
+r39231
+r39233
+r39237
+r39238
+r39239
+r39242
+r39245
+r39247
+r39249
+r39251
+r39253
+r39255
+r39258
+r39259
+r39262
+r39263
+r39265
+  -empty_dir: branches/R-2-4-branch/src/gnuwin32/front-ends/rproxy_dev.h
+r39268
+r39271
+r39272
+r39273
+r39276
+r39278
+r39280
+r39286
+  +file_prop: branches/R-2-4-branch/share/java/getsp.class svn:mime-type application/octet-stream
+r39288
+r39290
+r39292
+r39295
+r39297
+r39304
+r39305
+r39306
+r39307
+r39308
+r39309
+r39311
+r39316
+r39318
+r39319
+r39320
+r39323
+r39324
+r39329
+r39332
+r39333
+r39335
+r39337
+r39339
+r39341
+r39343
+r39347
+r39350
+r39352
+r39353
+r39358
+r39359
+r39361
+r39362
+r39363
+r39365
+r39367
+r39368
+r39375
+r39377
+r39378
+r39379
+r39380
+r39383
+r39385
+r39386
+r39388
+r39391
+r39392
+r39394
+r39396
+r39400
+r39402
+r39403
+r39405
+r39407
+r39409
+r39411
+r39414
+r39417
+r39419
+r39421
+r39423
+r39428
+r39430
+r39432
+r39434
+r39436
+r39438
+r39443
+r39447
+r39450
+r39454
+r39457
+r39461
+r39465
+r39466
+r39469
+r39471
+r39473
+r39476
+r39477
+r39480
+r39482
+r39484
+r39486
+r39488
+r39490
+r39492
+r39495
+r39501
+r39503
+r39504
+r39509
+r39510
+r39512
+r39514
+r39517
+r39518
+r39520
+r39521
+  +file_prop: branches/R-2-4-branch/src/library/stats/inst/po/ru/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/stats/inst/po/ru/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+r39523
+r39525
+r39526
+r39528
+r39529
+r39532
+r39535
+r39538
+r39540
+r39545
+r39548
+r39553
+r39559
+r39566
+r39567
+r39569
+r39571
+r39573
+  -empty_dir: branches/R-2-4-branch/src/gnuwin32/installer/SpanishStd.isl
+r39575
+r39578
+r39580
+r39584
+r39586
+r39589
+r39591
+r39592
+r39594
+r39596
+r39599
+r39601
+r39604
+r39605
+r39608
+r39610
+r39613
+r39616
+r39620
+r39622
+r39626
+r39627
+r39629
+r39632
+r39636
+r39639
+r39644
+r39646
+r39648
+r39650
+r39659
+r39660
+r39662
+r39664
+r39670
+r39671
+r39674
+r39678
+r39680
+r39681
+r39683
+  -empty_dir: branches/R-2-4-branch/src/gnuwin32/fixed/dobundle.pl
+r39686
+r39690
+r39693
+r39695
+r39705
+r39708
+r39711
+r39715
+r39718
+r39721
+r39722
+r39724
+r39726
+r39728
+r39730
+r39732
+r39734
+r39735
+r39741
+r39746
+r39748
+r39750
+r39755
+r39758
+r39763
+r39765
+r39768
+r39771
+r39776
+r39780
+r39785
+r39788
+r39795
+r39800
+r39811
+r39813
+r39818
+r39819
+r39820
+r39822
+r39823
+r39828
+r39829
+r39831
+r39833
+r39837
+r39838
+r39842
+r39845
+r39847
+r39849
+r39852
+r39857
+r39871
+r39876
+r39878
+r39882
+r39886
+  -empty_dir: branches/R-2-4-branch/src/extra/pcre/pcre_dfa_exec.c
+r39887
+r39897
+r39899
+r39903
+r39906
+r39909
+r39911
+r39913
+r39914
+r39917
+r39921
+r39924
+r39926
+r39929
+r39932
+r39934
+r39936
+r39940
+r39942
+r39946
+r39953
+r39958
+r39962
+r39968
+r39970
+r39973
+r39979
+r39981
+r39982
+r39986
+r39994
+r40003
+r40005
+r40016
+r40018
+r40020
+r40021
+r40022
+r40025
+r40027
+r40033
+r40038
+r40040
+r40042
+r40045
+r40049
+r40054
+r40061
+r40062
+r40065
+r40069
+r40070
+r40072
+r40074
+r40077
+r40078
+r40080
+r40084
+r40085
+r40087
+r40088
+r40104
+r40106
+r40111
+r40114
+r40116
+r40117
+r40119
+r40120
+r40124
+r40127
+r40130
+r40132
+r40136
+r40139
+r40144
+r40146
+r40147
+r40149
+r40150
+r40152
+r40154
+  +file_prop: branches/R-2-4-branch/po/RGui-es.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/utils/inst/po/ru/LC_MESSAGES/R-utils.mo svn:mime-type application/octet-stream
+r40156
+  +file_prop: branches/R-2-4-branch/src/library/grDevices/inst/po/grDevices-zh_CN/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+r40158
+r40160
+r40164
+r40169
+r40170
+r40174
+r40175
+r40186
+r40197
+r40209
+r40216
+r40226
+r40228
+r40229
+r40231
+r40237
+r40243
+r40251
+r40274
+r40277
+r40282
+r40285
+r40287
+r40289
+r40301
+r40303
+r40305
+r40311
+r40328
+r40334
+r40336
+r40346
+r40347
+r40363
+r40368
+r40381
+r40382
+r40384
+r40388
+r40408
+r40409
+  +file_prop: branches/R-2-4-branch/src/library/grDevices/inst/po/grDevices-zh_CN/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/graphics/inst/po/graphics-zh_CN/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/grid/inst/po/grid-zh_CN/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/grid/inst/po/grid-zh_CN/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/methods/inst/po/methods-zh_CN/LC_MESSAGES/methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/splines/inst/po/splines-zh_CN/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/splines/inst/po/splines-zh_CN/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/stats/inst/po/stats-zh_CN/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/stats4/inst/po/stats4-zh_CN/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/tcltk/inst/po/tcltk-zh_CN/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/tools/inst/po/tools-zh_CN/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/tools/inst/po/tools-zh_CN/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+r40415
+r40425
+r40437
+  -empty_dir: branches/R-2-4-branch/src/library/grDevices/inst/po/grDevices-zh_CN
+  -empty_dir: branches/R-2-4-branch/src/library/graphics/inst/po/graphics-zh_CN
+  -empty_dir: branches/R-2-4-branch/src/library/grid/inst/po/grid-zh_CN
+  -empty_dir: branches/R-2-4-branch/src/library/methods/inst/po/methods-zh_CN
+  -empty_dir: branches/R-2-4-branch/src/library/stats4/inst/po/stats4-zh_CN
+  -empty_dir: branches/R-2-4-branch/src/library/tcltk/inst/po/tcltk-zh_CN
+  -empty_dir: branches/R-2-4-branch/src/library/tools/inst/po/tools-zh_CN
+  +file_prop: branches/R-2-4-branch/src/library/grDevices/inst/po/zh_CN/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/grDevices/inst/po/zh_CN/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/graphics/inst/po/zh_CN/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/grid/inst/po/zh_CN/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/grid/inst/po/zh_CN/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/stats4/inst/po/zh_CN/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/tcltk/inst/po/zh_CN/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/tools/inst/po/zh_CN/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/tools/inst/po/zh_CN/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+r40438
+  -empty_dir: branches/R-2-4-branch/src/library/splines/inst/po/splines-zh_CN
+  -empty_dir: branches/R-2-4-branch/src/library/stats/inst/po/stats-zh_CN
+  +file_prop: branches/R-2-4-branch/src/library/splines/inst/po/zh_CN/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/splines/inst/po/zh_CN/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+r40439
+  -empty_dir: branches/R-2-4-branch/src/library/grDevices/po/R-grDevices-zh_CN.po
+  -empty_dir: branches/R-2-4-branch/src/library/grDevices/po/grDevices-zh_CN.po
+  -empty_dir: branches/R-2-4-branch/src/library/graphics/po/R-graphics-zh_CN.po
+  -empty_dir: branches/R-2-4-branch/src/library/grid/po/R-grid-zh_CN.po
+  -empty_dir: branches/R-2-4-branch/src/library/grid/po/grid-zh_CN.po
+  -empty_dir: branches/R-2-4-branch/src/library/methods/po/methods-zh_CN.po
+  -empty_dir: branches/R-2-4-branch/src/library/splines/po/R-splines-zh_CN.po
+  -empty_dir: branches/R-2-4-branch/src/library/splines/po/splines-zh_CN.po
+  -empty_dir: branches/R-2-4-branch/src/library/stats/po/stats-zh_CN.po
+  -empty_dir: branches/R-2-4-branch/src/library/stats4/po/R-stats4-zh_CN.po
+  -empty_dir: branches/R-2-4-branch/src/library/tcltk/po/R-tcltk-zh_CN.po
+  -empty_dir: branches/R-2-4-branch/src/library/tools/po/R-tools-zh_CN.po
+  -empty_dir: branches/R-2-4-branch/src/library/tools/po/tools-zh_CN.po
+  +file_prop: branches/R-2-4-branch/src/library/methods/inst/po/zh_CN/LC_MESSAGES/methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-4-branch/src/library/stats/inst/po/zh_CN/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+r40448
+r40457
+r40461
+r40492
+r40501
+r40503
+r40505
+r40515
+r40518
+r40521
+r40525
+r40526
+r40541
+r40546
+r40550
+r40564
+r40566
+r40569
+r40575
+r40588
+r40614
+r40619
+r40630
+r40642
+r40643
+r40695
+r40698
+r40709
+r40721
+r40730
+r40741
+r40743
+r40764
+r40781
+r40784
+r40806
+r40808
+r40820
+r40826
+r40827
+r40831
+r40838
+r40857
+r40862
+r40865
+r40879
+r40881
+r40887
+r40978
+r40989

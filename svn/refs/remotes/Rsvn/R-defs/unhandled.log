@@ -1,0 +1,130 @@
+r77464
+r77500
+r77501
+r77511
+  -empty_dir: branches/R-defs/src/library/grDevices/R/gradients.R
+  -empty_dir: branches/R-defs/src/library/grid/R/gradients.R
+  -empty_dir: branches/R-defs/src/main/gradients.c
+r77512
+r77513
+r77526
+r77527
+r77528
+r77529
+  +dir_prop: branches/R-defs svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-glmscore:55360-55826%0A/trunk:77465-77528
+r77549
+  -empty_dir: branches/R-defs/src/library/grid/tests/gradients.R
+r77550
+r77554
+r77555
+r77556
+r77557
+r77558
+r77559
+r77564
+  +dir_prop: branches/R-defs svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-glmscore:55360-55826%0A/trunk:77465-77563
+r77570
+r77571
+r77572
+r77585
+r77602
+r77603
+r77606
+  +dir_prop: branches/R-defs svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-glmscore:55360-55826%0A/trunk:77465-77605
+r77630
+r77637
+  +dir_prop: branches/R-defs svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-glmscore:55360-55826%0A/trunk:77465-77636
+r77866
+  -empty_dir: branches/R-defs/src/library/base/man/margin.table.Rd
+  -empty_dir: branches/R-defs/src/library/base/man/prop.table.Rd
+  +dir_prop: branches/R-defs svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-glmscore:55360-55826%0A/trunk:77465-77865
+r78232
+  -empty_dir: branches/R-defs/src/library/graphics/man/plot.Rd
+  +dir_prop: branches/R-defs svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:77465-78231
+  +file_prop: branches/R-defs/src/main/machar.c svn:eol-style native
+r78256
+r78281
+r78282
+r78283
+r78284
+r78285
+  +dir_prop: branches/R-defs svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:77465-78284
+r78386
+r78468
+r78469
+  +dir_prop: branches/R-defs svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:77465-78468
+r78491
+r78492
+r78493
+r78494
+r78495
+r78496
+r78497
+r78512
+r78515
+r78516
+r78517
+r78518
+r78519
+r78520
+r78521
+r78522
+r78530
+r78531
+r78532
+r78533
+  +dir_prop: branches/R-defs svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:77465-78532
+r78534
+r78563
+r78565
+r78572
+r78578
+  -empty_dir: branches/R-defs/src/library/grid/tests/clippaths.R
+  -empty_dir: branches/R-defs/src/library/grid/tests/masks.R
+  -empty_dir: branches/R-defs/src/library/grid/tests/patterns.R
+r78579
+r78580
+r78581
+r78608
+r78609
+  +dir_prop: branches/R-defs svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:77465-78608
+r78620
+r78621
+r78622
+r78623
+r78625
+r78631
+r78633
+r78635
+r78636
+r78637
+r78638
+r78639
+r78643
+r78644
+r78645
+r78654
+r78663
+r78665
+r78666
+r78679
+r78680
+r78681
+r78685
+  +dir_prop: branches/R-defs svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:77465-78681
+r78686
+r78689
+r78700
+r78701
+r78703
+r78713
+r78714
+r78715
+r78716
+  +dir_prop: branches/R-defs svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:77465-78715
+r78746
+  +dir_prop: branches/R-defs svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:77465-78745
+r78749
+r78755
+r78756
+  +dir_prop: branches/R-defs svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:77465-78755

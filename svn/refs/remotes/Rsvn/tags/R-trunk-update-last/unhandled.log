@@ -1,0 +1,16 @@
+r24137
+  -empty_dir: Attic
+  +file_prop: src/gnuwin32/graphapp/gifs/cam.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/color.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/console.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/copy.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/copy2.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/copypaste.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/cut.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/erase.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/help.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/open.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/open2.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/paste.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/print.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/save.gif svn:mime-type application/octet-stream

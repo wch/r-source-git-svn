@@ -1,0 +1,10 @@
+r2621
+  -empty_dir: Attic
+  -empty_dir: etc/COMPILE
+  -empty_dir: src/appl/Makefile
+  -empty_dir: src/graphics/Makefile
+  -empty_dir: src/library/base/man/is.atomic.Rd
+  -empty_dir: src/library/base/man/system.date.Rd
+  -empty_dir: src/main/Makefile
+  -empty_dir: src/nmath/Makefile
+  -empty_dir: src/unix/Makefile

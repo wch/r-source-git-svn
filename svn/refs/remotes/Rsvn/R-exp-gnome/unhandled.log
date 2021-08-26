@@ -1,0 +1,42 @@
+r6771
+  -empty_dir: Attic
+r6925
+  -empty_dir: branches/R-exp-gnome/src/gnome/command-grep.c
+  -empty_dir: branches/R-exp-gnome/src/gnome/command-grep.h
+  -empty_dir: branches/R-exp-gnome/src/gnome/devGNOME.h
+  -empty_dir: branches/R-exp-gnome/src/gnome/devGTK.c
+  -empty_dir: branches/R-exp-gnome/src/gnome/devGTK.h
+  -empty_dir: branches/R-exp-gnome/src/gnome/gnome-find-dialog.c
+  -empty_dir: branches/R-exp-gnome/src/gnome/gnome-find-dialog.h
+  -empty_dir: branches/R-exp-gnome/src/gnome/gtkconsole.c
+  -empty_dir: branches/R-exp-gnome/src/gnome/gtkconsole.h
+  -empty_dir: branches/R-exp-gnome/src/gnome/system-choosefile.c
+  -empty_dir: branches/R-exp-gnome/src/gnome/system-console.c
+  -empty_dir: branches/R-exp-gnome/src/gnome/system-showfiles.c
+  -empty_dir: branches/R-exp-gnome/src/gnome/terminal-find.c
+  -empty_dir: branches/R-exp-gnome/src/gnome/terminal-find.h
+  -empty_dir: branches/R-exp-gnome/src/gnome/terminal-functions.c
+  -empty_dir: branches/R-exp-gnome/src/gnome/terminal-functions.h
+  -empty_dir: branches/R-exp-gnome/src/gnome/terminal-menu.c
+  -empty_dir: branches/R-exp-gnome/src/gnome/terminal-menu.h
+  -empty_dir: branches/R-exp-gnome/src/gnome/terminal-prefs.c
+  -empty_dir: branches/R-exp-gnome/src/gnome/terminal-prefs.h
+  -empty_dir: branches/R-exp-gnome/src/gnome/terminal-toolbar.c
+  -empty_dir: branches/R-exp-gnome/src/gnome/terminal-toolbar.h
+  -empty_dir: branches/R-exp-gnome/src/gnome/terminal.c
+  -empty_dir: branches/R-exp-gnome/src/gnome/terminal.h
+r6926
+  -empty_dir: branches/R-exp-gnome/src/gnome/dataentry.h
+r6927
+r6928
+r6929
+r6958
+r7011
+r7046
+r7047
+r7048
+r7049
+r7090
+r7092
+r7093
+r7094

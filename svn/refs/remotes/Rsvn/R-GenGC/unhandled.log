@@ -1,0 +1,56 @@
+r9615
+  -empty_dir: Attic
+r9616
+r9618
+r9634
+r9635
+r9642
+r9648
+r9649
+r9682
+r9683
+r9684
+r9685
+r9692
+r9693
+r9694
+r9697
+r9698
+r9703
+r9716
+r9901
+r9913
+r10090
+r10103
+r10104
+r10105
+r10108
+  -empty_dir: branches/R-GenGC/src/gnuwin32/check/makeRex.R
+  -empty_dir: branches/R-GenGC/src/gnuwin32/fixed/GETCONFIG
+  -empty_dir: branches/R-GenGC/src/gnuwin32/fixed/GETVERSION
+  -empty_dir: branches/R-GenGC/src/gnuwin32/fixed/bin/Rd2txt.bat
+  -empty_dir: branches/R-GenGC/src/gnuwin32/fixed/bin/Rdconv.bat
+  -empty_dir: branches/R-GenGC/src/gnuwin32/fixed/bin/Rdindex.bat
+  -empty_dir: branches/R-GenGC/src/gnuwin32/fixed/bin/Sd2Rd.bat
+  -empty_dir: branches/R-GenGC/src/gnuwin32/fixed/keywords2html
+  -empty_dir: branches/R-GenGC/src/library/base/R/unix/getenv.R
+  -empty_dir: branches/R-GenGC/src/library/base/R/windows/getenv.R
+  -empty_dir: branches/R-GenGC/src/library/base/man/unix/undoc.Rd
+  -empty_dir: branches/R-GenGC/src/library/base/man/windows/savehistory.Rd
+  -empty_dir: branches/R-GenGC/src/library/tcltk/src/tcl83.def
+  -empty_dir: branches/R-GenGC/src/library/tcltk/src/tk83.def
+  -empty_dir: branches/R-GenGC/src/scripts/Rd2txt.in
+  -empty_dir: branches/R-GenGC/src/scripts/build
+  -empty_dir: branches/R-GenGC/tools/keywords2html.in
+r10115
+r10116
+r10117
+r10124
+r10125
+r10126
+r10129
+r10134
+r10142
+r10160
+r10161
+r10162

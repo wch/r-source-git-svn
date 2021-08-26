@@ -1,0 +1,117 @@
+r78769
+r78770
+r78771
+r78772
+r78774
+r78775
+r78777
+r78779
+r78788
+r78818
+r78819
+r78820
+r78821
+r78826
+r78835
+  +dir_prop: branches/R-syntax svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-defs:77464-78758%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:78770-78834
+r78855
+r78856
+r78954
+  +dir_prop: branches/R-syntax svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-defs:77464-78758%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:78770-78953
+r78955
+r78986
+r78987
+r79226
+  +dir_prop: branches/R-syntax svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-defs:77464-78758%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:78770-79223
+r79420
+  +dir_prop: branches/R-syntax svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-defs:77464-78758%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:78770-79416
+r79424
+r79432
+r79548
+  +dir_prop: branches/R-syntax svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-defs:77464-78758%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:78770-79547
+r79549
+r79550
+r79551
+r79552
+r79575
+r79576
+  +dir_prop: branches/R-syntax svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-defs:77464-78758%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:78770-79575
+r79579
+  +dir_prop: branches/R-syntax svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-defs:77464-78758%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:78770-79575%2C79577-79578
+r79581
+r79582
+r79596
+r79607
+r79631
+  +dir_prop: branches/R-syntax svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-defs:77464-78758%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:78770-79575%2C79577-79630
+r79632
+r79633
+r79634
+r79640
+r79641
+r79817
+  +dir_prop: branches/R-syntax svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-defs:77464-78758%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:78770-79575%2C79577-79816
+r80546
+  -empty_dir: branches/R-syntax/m4/cxx_11.m4
+  -empty_dir: branches/R-syntax/src/include/R_ext/R-ftp-http.h
+  -empty_dir: branches/R-syntax/src/library/grid/vignettes/grid.Rnw-nolattice
+  -empty_dir: branches/R-syntax/src/modules/internet/nanoftp.c
+  -empty_dir: branches/R-syntax/src/modules/internet/nanohttp.c
+  +dir_prop: branches/R-syntax svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-4-1-branch:80314%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-defs:77464-78758%0A/branches/R-glmscore:55360-55826%0A/branches/R-symfam:78109-78182%0A/trunk:78770-79575%2C79577-80545
+  +file_prop: branches/R-syntax/src/library/translations/inst/fr/LC_MESSAGES/utils.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/it/LC_MESSAGES/R-compiler.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/it/LC_MESSAGES/R-grid.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/it/LC_MESSAGES/R-methods.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/it/LC_MESSAGES/R-parallel.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/it/LC_MESSAGES/R-splines.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/it/LC_MESSAGES/R-utils.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/it/LC_MESSAGES/methods.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/it/LC_MESSAGES/parallel.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/it/LC_MESSAGES/splines.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/it/LC_MESSAGES/tcltk.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/it/LC_MESSAGES/utils.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/R-base.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/R-compiler.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/R-grDevices.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/R-graphics.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/R-grid.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/R-parallel.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/R-stats4.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/R-tcltk.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/R-utils.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/R.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/RGui.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/grDevices.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/graphics.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/grid.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/methods.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/parallel.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/splines.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/stats.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/tcltk.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/lt/LC_MESSAGES/utils.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/ru/LC_MESSAGES/utils.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/R-base.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/R-compiler.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/R-grDevices.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/R-graphics.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/R-grid.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/R-parallel.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/R-splines.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/R-stats.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/R-stats4.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/R-tcltk.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/R-utils.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/grDevices.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/grid.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/methods.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/parallel.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/splines.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/stats.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/tcltk.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/tools.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/library/translations/inst/zh_TW/LC_MESSAGES/utils.mo svn:mime-type application/x-gettext-translation
+  +file_prop: branches/R-syntax/src/nmath/qDiscrete_search.h svn:eol-style native
+  +file_prop: branches/R-syntax/src/nmath/qDiscrete_search.h svn:keywords Author%20Date%20Id%20Rev%20URL
+  +file_prop: branches/R-syntax/src/nmath/qnbinom_mu.c svn:eol-style native
+r80561

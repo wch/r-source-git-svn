@@ -1,0 +1,18 @@
+r7079
+  -empty_dir: Attic
+  -empty_dir: doc/manual/Manual.out
+  -empty_dir: doc/manual/Manual.tex.in
+  -empty_dir: doc/manual/R-external.texi
+  -empty_dir: doc/manual/Rd2dvi.tex
+  -empty_dir: doc/manual/Reference.tex.in
+  -empty_dir: doc/manual/plotmath.tex
+  -empty_dir: doc/manual/primitive-funs.tex
+  -empty_dir: doc/manual/programming.tex
+  -empty_dir: doc/manual/writing-Rd.tex
+  -empty_dir: src/gnuwin32/front-ends/rproxy.h
+  -empty_dir: src/library/base/man/update.lm.Rd
+  -empty_dir: src/library/base/man/windows/help.Rd
+  -empty_dir: src/library/base/man/windows/help.start.Rd
+  -empty_dir: src/library/base/man/windows/tempfile.Rd
+  -empty_dir: src/library/base/man/windows/unlink.Rd
+  -empty_dir: src/library/base/man/windows/update.packages.Rd

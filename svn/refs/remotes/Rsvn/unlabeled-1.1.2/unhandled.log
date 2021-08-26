@@ -1,0 +1,39 @@
+r4388
+  -empty_dir: Attic
+  -empty_dir: BUGS
+  -empty_dir: COPYING
+  -empty_dir: COPYRIGHTS
+  -empty_dir: FAQ
+  -empty_dir: INSTALL
+  -empty_dir: MIRROR-SITES
+  -empty_dir: Makeconf.in
+  -empty_dir: Makefile.in
+  -empty_dir: NEWS
+  -empty_dir: PLATFORMS
+  -empty_dir: PROJECTS
+  -empty_dir: README
+  -empty_dir: RESOURCES
+  -empty_dir: TASKS
+  -empty_dir: aclocal.m4
+  -empty_dir: afm
+  -empty_dir: config.site
+  -empty_dir: configure
+  -empty_dir: configure.in
+  -empty_dir: configure.mac
+  -empty_dir: configure.win
+  -empty_dir: date-stamp
+  -empty_dir: debian
+  -empty_dir: demos
+  -empty_dir: doc
+  -empty_dir: etc
+  -empty_dir: src
+  -empty_dir: tests
+  -empty_dir: tools
+r4389
+r4393
+r4414
+r4415
+r4417
+r4418
+r6391
+r6398

@@ -1,0 +1,50 @@
+r46659
+r46670
+r46679
+r46685
+r46750
+r46751
+r46752
+r46769
+r46828
+r46869
+r46872
+r46894
+r46905
+r46906
+  -empty_dir: branches/djm-parseRd/src/scripts/BATCH
+  -empty_dir: branches/djm-parseRd/src/scripts/LINK
+  -empty_dir: branches/djm-parseRd/src/scripts/Rcmd
+  -empty_dir: branches/djm-parseRd/src/scripts/Rd2dvi
+  -empty_dir: branches/djm-parseRd/src/scripts/Rd2txt
+  -empty_dir: branches/djm-parseRd/src/scripts/Rdiff
+  -empty_dir: branches/djm-parseRd/src/scripts/Stangle
+  -empty_dir: branches/djm-parseRd/src/scripts/Sweave
+  -empty_dir: branches/djm-parseRd/src/scripts/config
+  -empty_dir: branches/djm-parseRd/src/scripts/f77_f2c
+  -empty_dir: branches/djm-parseRd/src/scripts/javareconf
+  -empty_dir: branches/djm-parseRd/src/scripts/mkinstalldirs
+  -empty_dir: branches/djm-parseRd/src/scripts/pager
+  +dir_prop: branches/djm-parseRd svn:mergeinfo /trunk:46659-46902
+  +file_prop: branches/djm-parseRd/src/scripts/BATCH.in svn:keywords Rev
+  +file_prop: branches/djm-parseRd/src/scripts/LINK.in svn:keywords Rev
+  +file_prop: branches/djm-parseRd/src/scripts/Rd2dvi.in svn:keywords Rev
+  +file_prop: branches/djm-parseRd/src/scripts/Rd2txt.in svn:keywords Rev
+  +file_prop: branches/djm-parseRd/src/scripts/Stangle.in svn:keywords Rev
+  +file_prop: branches/djm-parseRd/src/scripts/Sweave.in svn:keywords Rev
+  +file_prop: branches/djm-parseRd/src/scripts/config.in svn:keywords Rev
+  +file_prop: branches/djm-parseRd/src/scripts/f77_f2c.in svn:keywords Rev
+r46915
+r46919
+r46922
+r46925
+  +dir_prop: branches/djm-parseRd svn:mergeinfo /trunk:46659-46923
+r46926
+r47292
+  -empty_dir: branches/djm-parseRd/src/main/gramRd.y
+  +file_prop: branches/djm-parseRd/src/library/tools/R/RdConv2.R svn:mergeinfo /branches/djm-parseRd/src/library/tools/R/RdConv2.R:46922%0A/trunk/src/library/tools/R/RdConv2.R:46233-46938
+  +file_prop: branches/djm-parseRd/src/main/gramRd.y svn:mergeinfo /branches/djm-parseRd/src/main/gramRd.y:46922%0A/trunk/src/main/gramRd.y:46233-46938
+r47303
+r47305
+r47308
+r47311

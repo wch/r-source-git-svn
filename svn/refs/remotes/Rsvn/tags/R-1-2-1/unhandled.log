@@ -1,0 +1,11 @@
+r12253
+  -empty_dir: Attic
+  -empty_dir: MIRROR-SITES
+  -empty_dir: doc/html/resource.html
+  -empty_dir: src/gnuwin32/maketitle
+  -empty_dir: src/scripts/maketitle
+  -empty_dir: tools/Rdnewer.in
+  -empty_dir: tools/help2man.in
+  -empty_dir: tools/install-info.in
+  -empty_dir: tools/pkg2tex.in
+  +file_prop: tests/reg-IO.R svn:mime-type application/octet-stream

@@ -1,0 +1,4 @@
+r6082
+  -empty_dir: Attic
+  -empty_dir: src/include/Rversion.h.in
+  +file_prop: src/gnuwin32/help/logo.bmp svn:mime-type application/octet-stream

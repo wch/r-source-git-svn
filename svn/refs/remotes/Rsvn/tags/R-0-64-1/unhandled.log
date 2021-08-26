@@ -1,0 +1,8 @@
+r4552
+  -empty_dir: Attic
+  -empty_dir: configure.win
+  -empty_dir: src/appl/zeroin.c
+  -empty_dir: src/library/base/R/warnings.R
+  -empty_dir: src/library/base/man/warnings.Rd
+  -empty_dir: tests/simple-tests.R
+  -empty_dir: tests/simple-tests.Rout.save

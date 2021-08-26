@@ -1,0 +1,6 @@
+r10272
+  -empty_dir: Attic
+  -empty_dir: src/library/base/man/unix/undoc.Rd
+  -empty_dir: src/library/tcltk/src/tcl83.def
+  -empty_dir: src/library/tcltk/src/tk83.def
+  -empty_dir: src/scripts/Rd2txt.in

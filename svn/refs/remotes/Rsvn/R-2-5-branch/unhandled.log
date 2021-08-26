@@ -1,0 +1,847 @@
+r40892
+r40893
+  +empty_dir: branches/R-2-5-branch/trunk/src/library/stats/inst/include
+  +dir_prop: branches/R-2-5-branch/trunk/src/library/Recommended svn:ignore *.tar.gz%0A*.tgz%0A*.ts%0A
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/about.html svn:mime-type text/html
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/index-default.html svn:mime-type text/html
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/left.jpg svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/logo.jpg svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/logosm.jpg svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/packages-head.html svn:mime-type text/html
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/right.jpg svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/IndexEntry.class svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/IndexEntry.java svn:keywords Rev%20LastChangedDate%20Author
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/IndexStream.class svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/IndexStream.java svn:keywords Rev%20LastChangedDate%20Author
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/IndexTable.class svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/IndexTable.java svn:keywords Rev%20LastChangedDate%20Author
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/SearchEngine.class svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/SearchEngine.java svn:keywords Rev%20LastChangedDate%20Author
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/Tracer.class svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/Tracer.java svn:keywords Rev%20LastChangedDate%20Author
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/Value.class svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/Value.java svn:keywords Rev%20LastChangedDate%20Author
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/thanks.html svn:mime-type text/html
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/up.jpg svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/manual/images/QQ.pdf svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/manual/images/ecdf.pdf svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/manual/images/fig11.pdf svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/manual/images/fig12.pdf svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/manual/images/hist.pdf svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/manual/images/ice.pdf svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-de.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-es.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-fr.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-it.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-ja.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-ko.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-pt_BR.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-ru.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-zh_CN.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-zh_TW.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/de.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/en.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/en%40quot.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/en_GB.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/es.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/fr.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/it.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/ja.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/ko.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/pt_BR.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/ru.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/zh_CN.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/zh_TW.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/share/java/getsp.class svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/share/perl/build-help.pl svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/gnuwin32/fixed/bin/INSTALL svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/gnuwin32/fixed/bin/REMOVE svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/gnuwin32/fixed/bin/Rd2dvi.sh svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/gnuwin32/fixed/bin/SHLIB svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/gnuwin32/fixed/bin/Stangle.sh svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/gnuwin32/fixed/bin/Sweave.sh svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/gnuwin32/help/logo.bmp svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/de/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/en%40quot/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/fr/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/it/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/ja/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/ko/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/pt_BR/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/ru/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/zh_CN/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/datasets/data/crimtab.rda svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/en%40quot/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/en%40quot/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/en_GB/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/en_GB/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/fr/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/fr/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/it/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/it/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/ja/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/ko/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/ko/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/ru/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/ru/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/zh_CN/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/zh_CN/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/graphics/inst/po/en%40quot/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/graphics/inst/po/fr/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/graphics/inst/po/it/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/graphics/inst/po/ja/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/graphics/inst/po/ko/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/graphics/inst/po/ru/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/graphics/inst/po/zh_CN/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/en%40quot/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/en%40quot/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/fr/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/fr/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/it/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/ja/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/ja/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/ko/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/ko/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/pt_BR/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/ru/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/ru/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/zh_CN/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/zh_CN/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/en%40quot/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/en%40quot/LC_MESSAGES/methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/fr/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/fr/LC_MESSAGES/methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/ko/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/pt_BR/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/pt_BR/LC_MESSAGES/methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/zh_CN/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/zh_CN/LC_MESSAGES/methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/en%40quot/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/en%40quot/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/fr/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/fr/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/ja/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/ja/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/ko/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/ko/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/pt_BR/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/pt_BR/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/ru/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/ru/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/zh_CN/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/zh_CN/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/en%40quot/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/en%40quot/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/fr/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/fr/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/it/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/it/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/ja/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/ja/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/ko/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/ko/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/pt_BR/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/pt_BR/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/ru/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/ru/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/zh_CN/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/zh_CN/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/en%40quot/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/fr/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/it/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/ja/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/ko/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/pt_BR/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/ru/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/zh_CN/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/en%40quot/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/en%40quot/LC_MESSAGES/tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/fr/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/fr/LC_MESSAGES/tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/it/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/ja/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/ko/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/pt_BR/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/ru/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/zh_CN/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/en%40quot/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/en%40quot/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/fr/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/fr/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/it/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/it/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/ja/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/ko/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/ko/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/pt_BR/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/ru/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/ru/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/zh_CN/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/zh_CN/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/utils/inst/po/en%40quot/LC_MESSAGES/R-utils.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/utils/inst/po/fr/LC_MESSAGES/R-utils.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/utils/inst/po/ko/LC_MESSAGES/R-utils.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/utils/inst/po/ru/LC_MESSAGES/R-utils.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/utils/inst/po/zh_CN/LC_MESSAGES/R-utils.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/BATCH svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/COMPILE.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/INSTALL.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/LINK svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/REMOVE.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/Rd2dvi svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/Rd2txt svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/Rdconv.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/Rprof.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/SHLIB.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/Sd2Rd.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/Stangle svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/Sweave svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/build.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/check.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/config svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/f77_f2c svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/texi2dvi svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/unix/Rscript.c svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/tests/WinUnicode.dat svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/tests/nanbug.rda svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/tests/reg-IO.R svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/tools/getsp.class svn:mime-type application/octet-stream
+r40896
+r40898
+  +empty_dir: branches/R-2-5-branch/trunk/src/library/stats/inst/include
+  +dir_prop: branches/R-2-5-branch/trunk/src/library/Recommended svn:ignore *.tar.gz%0A*.tgz%0A*.ts%0A
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/about.html svn:mime-type text/html
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/index-default.html svn:mime-type text/html
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/left.jpg svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/logo.jpg svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/logosm.jpg svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/packages-head.html svn:mime-type text/html
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/right.jpg svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/IndexEntry.class svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/IndexEntry.java svn:keywords Rev%20LastChangedDate%20Author
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/IndexStream.class svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/IndexStream.java svn:keywords Rev%20LastChangedDate%20Author
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/IndexTable.class svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/IndexTable.java svn:keywords Rev%20LastChangedDate%20Author
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/SearchEngine.class svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/SearchEngine.java svn:keywords Rev%20LastChangedDate%20Author
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/Tracer.class svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/Tracer.java svn:keywords Rev%20LastChangedDate%20Author
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/Value.class svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/search/Value.java svn:keywords Rev%20LastChangedDate%20Author
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/thanks.html svn:mime-type text/html
+  +file_prop: branches/R-2-5-branch/trunk/doc/html/up.jpg svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/manual/images/QQ.pdf svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/manual/images/ecdf.pdf svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/manual/images/fig11.pdf svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/manual/images/fig12.pdf svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/manual/images/hist.pdf svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/doc/manual/images/ice.pdf svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-de.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-es.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-fr.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-it.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-ja.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-ko.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-pt_BR.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-ru.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-zh_CN.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/RGui-zh_TW.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/de.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/en.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/en%40quot.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/en_GB.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/es.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/fr.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/it.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/ja.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/ko.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/pt_BR.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/ru.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/zh_CN.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/po/zh_TW.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/share/java/getsp.class svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/share/perl/build-help.pl svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/gnuwin32/fixed/bin/INSTALL svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/gnuwin32/fixed/bin/REMOVE svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/gnuwin32/fixed/bin/Rd2dvi.sh svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/gnuwin32/fixed/bin/SHLIB svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/gnuwin32/fixed/bin/Stangle.sh svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/gnuwin32/fixed/bin/Sweave.sh svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/gnuwin32/help/logo.bmp svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/de/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/en%40quot/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/fr/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/it/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/ja/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/ko/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/pt_BR/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/ru/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/base/inst/po/zh_CN/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/datasets/data/crimtab.rda svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/en%40quot/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/en%40quot/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/en_GB/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/en_GB/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/fr/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/fr/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/it/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/it/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/ja/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/ko/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/ko/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/ru/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/ru/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/zh_CN/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grDevices/inst/po/zh_CN/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/graphics/inst/po/en%40quot/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/graphics/inst/po/fr/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/graphics/inst/po/it/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/graphics/inst/po/ja/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/graphics/inst/po/ko/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/graphics/inst/po/ru/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/graphics/inst/po/zh_CN/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/en%40quot/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/en%40quot/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/fr/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/fr/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/it/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/ja/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/ja/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/ko/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/ko/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/pt_BR/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/ru/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/ru/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/zh_CN/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/grid/inst/po/zh_CN/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/en%40quot/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/en%40quot/LC_MESSAGES/methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/fr/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/fr/LC_MESSAGES/methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/ko/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/pt_BR/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/pt_BR/LC_MESSAGES/methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/zh_CN/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/methods/inst/po/zh_CN/LC_MESSAGES/methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/en%40quot/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/en%40quot/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/fr/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/fr/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/ja/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/ja/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/ko/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/ko/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/pt_BR/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/pt_BR/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/ru/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/ru/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/zh_CN/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/splines/inst/po/zh_CN/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/en%40quot/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/en%40quot/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/fr/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/fr/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/it/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/it/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/ja/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/ja/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/ko/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/ko/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/pt_BR/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/pt_BR/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/ru/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/ru/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/zh_CN/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats/inst/po/zh_CN/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/en%40quot/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/fr/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/it/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/ja/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/ko/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/pt_BR/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/ru/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/stats4/inst/po/zh_CN/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/en%40quot/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/en%40quot/LC_MESSAGES/tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/fr/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/fr/LC_MESSAGES/tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/it/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/ja/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/ko/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/pt_BR/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/ru/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tcltk/inst/po/zh_CN/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/en%40quot/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/en%40quot/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/fr/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/fr/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/it/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/it/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/ja/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/ko/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/ko/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/pt_BR/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/ru/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/ru/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/zh_CN/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/tools/inst/po/zh_CN/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/utils/inst/po/en%40quot/LC_MESSAGES/R-utils.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/utils/inst/po/fr/LC_MESSAGES/R-utils.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/utils/inst/po/ko/LC_MESSAGES/R-utils.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/utils/inst/po/ru/LC_MESSAGES/R-utils.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/library/utils/inst/po/zh_CN/LC_MESSAGES/R-utils.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/BATCH svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/COMPILE.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/INSTALL.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/LINK svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/REMOVE.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/Rd2dvi svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/Rd2txt svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/Rdconv.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/Rprof.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/SHLIB.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/Sd2Rd.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/Stangle svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/Sweave svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/build.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/check.in svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/config svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/f77_f2c svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/scripts/texi2dvi svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/src/unix/Rscript.c svn:keywords Rev
+  +file_prop: branches/R-2-5-branch/trunk/tests/WinUnicode.dat svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/tests/nanbug.rda svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/tests/reg-IO.R svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/trunk/tools/getsp.class svn:mime-type application/octet-stream
+r40900
+r40903
+r40907
+r40911
+r40912
+r40914
+r40916
+r40919
+r40922
+r40924
+r40928
+r40929
+r40932
+r40934
+r40936
+r40938
+r40940
+r40941
+r40943
+r40945
+r40948
+r40952
+r40954
+r40956
+r40957
+r40960
+r40962
+r40964
+r40965
+r40967
+r40970
+r40972
+r40974
+r40977
+r40980
+r40983
+r40985
+r40988
+r40990
+r40992
+r40994
+r40995
+r40996
+r40999
+r41001
+r41003
+r41004
+r41007
+r41009
+r41011
+r41013
+r41015
+r41017
+r41019
+r41022
+r41026
+r41028
+r41030
+r41031
+r41032
+r41035
+r41037
+r41039
+r41041
+r41043
+r41045
+r41047
+r41048
+r41050
+r41051
+r41052
+r41055
+r41060
+r41062
+r41064
+r41066
+r41069
+r41071
+r41072
+r41075
+r41076
+r41080
+r41081
+r41085
+r41087
+r41089
+r41091
+r41093
+r41094
+r41097
+r41098
+r41100
+r41102
+r41103
+  -empty_dir: branches/R-2-5-branch/src/library/tcltk/po/R-ja.po
+  +file_prop: branches/R-2-5-branch/src/library/grDevices/inst/po/ja/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/src/library/methods/inst/po/ja/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/src/library/methods/inst/po/ja/LC_MESSAGES/methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/src/library/tcltk/inst/po/ja/LC_MESSAGES/tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/src/library/tcltk/inst/po/zh_CN/LC_MESSAGES/tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/src/library/tools/inst/po/ja/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/src/library/utils/inst/po/ja/LC_MESSAGES/R-utils.mo svn:mime-type application/octet-stream
+r41104
+r41110
+r41113
+r41115
+r41119
+r41121
+r41123
+  +file_prop: branches/R-2-5-branch/src/library/methods/inst/po/ru/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/src/library/methods/inst/po/ru/LC_MESSAGES/methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-2-5-branch/src/library/tcltk/inst/po/ru/LC_MESSAGES/tcltk.mo svn:mime-type application/octet-stream
+r41127
+r41130
+r41132
+r41135
+r41136
+r41141
+r41142
+r41144
+r41146
+r41150
+r41152
+r41153
+r41158
+r41163
+  -empty_dir: branches/R-2-5-branch/src/include/R_ext/stats_stubs.c
+r41165
+r41166
+r41170
+r41172
+r41174
+r41176
+r41179
+r41180
+r41183
+r41186
+r41188
+r41191
+r41193
+r41194
+r41196
+r41199
+r41201
+r41203
+r41204
+r41208
+r41210
+r41212
+r41214
+r41216
+r41217
+r41218
+r41224
+r41230
+r41232
+r41239
+r41242
+r41248
+r41253
+r41255
+r41257
+r41263
+r41268
+r41272
+r41279
+r41282
+r41294
+r41296
+r41298
+r41302
+r41304
+r41305
+r41307
+r41308
+r41310
+r41312
+r41314
+r41320
+r41321
+r41332
+r41333
+r41338
+r41340
+r41342
+r41343
+r41346
+r41348
+r41351
+r41358
+r41360
+r41363
+r41366
+r41370
+r41374
+r41376
+r41378
+r41382
+r41386
+r41387
+r41388
+r41392
+r41394
+r41396
+r41397
+r41399
+r41401
+r41405
+r41406
+r41409
+r41411
+r41420
+r41423
+r41428
+r41430
+r41441
+r41444
+r41448
+r41451
+r41453
+r41462
+r41466
+r41469
+r41473
+r41475
+r41477
+r41485
+r41500
+r41505
+r41507
+r41510
+r41515
+r41518
+r41520
+r41522
+r41523
+  -empty_dir: branches/R-2-5-branch/src/gnuwin32/rw-FAQ.css
+r41529
+r41538
+r41548
+r41559
+r41562
+r41564
+r41566
+r41568
+r41570
+r41575
+r41578
+r41585
+r41587
+r41589
+r41592
+r41597
+r41603
+r41612
+r41624
+r41627
+r41634
+r41644
+r41647
+r41650
+r41652
+r41655
+r41656
+r41657
+r41661
+r41663
+r41667
+r41668
+r41677
+r41693
+r41696
+r41705
+r41706
+r41707
+r41717
+r41721
+r41723
+r41724
+r41727
+r41729
+r41735
+r41737
+r41741
+r41744
+r41746
+r41747
+r41751
+r41753
+r41755
+r41761
+r41764
+r41780
+r41789
+r41791
+r41800
+r41806
+r41819
+r41822
+r41826
+r41837
+r41847
+r41850
+r41864
+r41866
+r41872
+r41892
+r41912
+r41918
+r41920
+r41925
+r41927
+r41929
+r41932
+r41934
+r41938
+r41942
+r41943
+r41948
+r41952
+r41957
+r41968
+r41970
+r41977
+r41983
+r41984
+r41986
+r41990
+r41995
+r41998
+r42000
+r42002
+r42004
+r42007
+r42009
+r42011
+r42013
+r42015
+r42020
+r42022
+r42024
+r42025
+r42037
+r42042
+r42044
+r42050
+r42054
+r42057
+r42058
+r42062
+r42063
+r42066
+r42068
+r42073
+r42075
+r42079
+r42084
+r42086
+r42087
+r42088
+r42089
+r42092
+r42097
+r42100
+r42102
+r42114
+r42119
+r42129
+r42141
+r42144
+r42146
+r42148
+r42150
+r42160
+r42163
+r42164
+r42171
+r42173
+r42182
+r42185
+r42199
+r42201
+r42203
+r42221
+r42230
+r42267
+r42269
+r42278
+r42289
+r42312
+r42317
+r42318
+r42319
+r42328
+r42344
+r42376
+r42379
+r42380
+r42384
+r42388
+r42434
+r42435
+r42436
+r42442
+r42445
+r42449
+r42454
+r42464
+r42477
+r42486
+r42494
+r42498
+r42499
+r42504
+r42509
+r42513
+r42526
+r42532
+r42559
+r42561
+r42652
+r42669
+r42673
+r42678
+r42708
+r42718
+r42720
+r42722
+r42723
+r42757
+r42883

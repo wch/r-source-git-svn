@@ -1,0 +1,161 @@
+r33359
+r33370
+r33371
+r33372
+  +file_prop: branches/R-noNULLenv/src/library/graphics/inst/po/it/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+r33394
+r33397
+r33399
+r33418
+r33419
+  -empty_dir: branches/R-noNULLenv/src/library/grDevices/inst/po/en_GB/LC_MESSAGES/grDevices.po
+  +file_prop: branches/R-noNULLenv/po/pt_BR.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grDevices/inst/po/en_GB/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grDevices/inst/po/it/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grDevices/inst/po/it/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+r33420
+r33429
+r33430
+r33437
+r33440
+r33458
+r33459
+r33509
+  -empty_dir: branches/R-noNULLenv/po/en%40boldquot.gmo
+  -empty_dir: branches/R-noNULLenv/po/en%40boldquot.po
+  +file_prop: branches/R-noNULLenv/po/zh_CN.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/base/inst/po/en%40quot/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grDevices/inst/po/en%40quot/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grDevices/inst/po/en%40quot/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/graphics/inst/po/en%40quot/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grid/inst/po/en%40quot/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grid/inst/po/en%40quot/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/methods/inst/po/en%40quot/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/methods/inst/po/en%40quot/LC_MESSAGES/methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/splines/inst/po/en%40quot/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/splines/inst/po/en%40quot/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats/inst/po/en%40quot/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats/inst/po/en%40quot/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats4/inst/po/en%40quot/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/tcltk/inst/po/en%40quot/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/tools/inst/po/en%40quot/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/tools/inst/po/en%40quot/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/utils/inst/po/en%40quot/LC_MESSAGES/R-utils.mo svn:mime-type application/octet-stream
+r33517
+r33518
+r33598
+  -empty_dir: branches/R-noNULLenv/src/library/splines/inst/po/en
+  -empty_dir: branches/R-noNULLenv/src/library/splines/po/en.po
+r34864
+  -empty_dir: branches/R-noNULLenv/date-stamp
+  -empty_dir: branches/R-noNULLenv/src/appl/bandwidths.c
+  -empty_dir: branches/R-noNULLenv/src/gnuwin32/cran/mini.in
+  -empty_dir: branches/R-noNULLenv/src/library/base/man/delay.Rd
+  -empty_dir: branches/R-noNULLenv/src/library/graphics/R/xyz.coords.R
+  -empty_dir: branches/R-noNULLenv/src/library/graphics/man/n2mfrow.Rd
+  -empty_dir: branches/R-noNULLenv/src/library/graphics/man/xy.coords.Rd
+  -empty_dir: branches/R-noNULLenv/src/library/graphics/man/xyz.coords.Rd
+  +file_prop: branches/R-noNULLenv/po/RGui-de.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/po/RGui-fr.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/po/RGui-ja.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/po/RGui-ko.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/po/RGui-zh_CN.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/po/fr.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/po/ja.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/po/ko.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/po/ru.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/base/inst/po/de/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/base/inst/po/ja/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/base/inst/po/ko/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grDevices/inst/po/ja/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grDevices/inst/po/ko/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grDevices/inst/po/ko/LC_MESSAGES/grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/graphics/inst/po/ja/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/graphics/inst/po/ko/LC_MESSAGES/R-graphics.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grid/inst/po/it/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grid/inst/po/ja/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grid/inst/po/ja/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grid/inst/po/ko/LC_MESSAGES/R-grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grid/inst/po/ko/LC_MESSAGES/grid.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/methods/inst/po/ko/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/splines/inst/po/ja/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/splines/inst/po/ja/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/splines/inst/po/ko/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/splines/inst/po/ko/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/splines/inst/po/ru/LC_MESSAGES/R-splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats/inst/po/it/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats/inst/po/it/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats/inst/po/ja/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats/inst/po/ja/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats/inst/po/ko/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats/inst/po/ko/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats/inst/po/zh_CN/LC_MESSAGES/R-stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats4/inst/po/it/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats4/inst/po/ja/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats4/inst/po/ko/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats4/inst/po/ru/LC_MESSAGES/R-stats4.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/tcltk/inst/po/it/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/tcltk/inst/po/ja/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/tcltk/inst/po/ko/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/tcltk/inst/po/ru/LC_MESSAGES/R-tcltk.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/tools/inst/po/it/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/tools/inst/po/it/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/tools/inst/po/ja/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/tools/inst/po/ko/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/tools/inst/po/ko/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/tools/inst/po/ru/LC_MESSAGES/tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/utils/inst/po/ko/LC_MESSAGES/R-utils.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/tests/WinUnicode.dat svn:mime-type application/octet-stream
+r34868
+r34873
+r34874
+r34875
+r35372
+  -empty_dir: branches/R-noNULLenv/src/appl/chull.c
+  -empty_dir: branches/R-noNULLenv/src/extra/pcre/get.c
+  -empty_dir: branches/R-noNULLenv/src/extra/pcre/internal.h
+  -empty_dir: branches/R-noNULLenv/src/extra/pcre/maketables.c
+  -empty_dir: branches/R-noNULLenv/src/extra/pcre/pcre.c
+  -empty_dir: branches/R-noNULLenv/src/extra/pcre/study.c
+  -empty_dir: branches/R-noNULLenv/src/gnuwin32/front-ends/bdx.c
+  -empty_dir: branches/R-noNULLenv/src/library/grDevices/man/unix/grDevices-defunct.Rd
+  -empty_dir: branches/R-noNULLenv/src/library/graphics/R/chull.R
+  -empty_dir: branches/R-noNULLenv/src/library/graphics/man/boxplot.stats.Rd
+  -empty_dir: branches/R-noNULLenv/src/library/graphics/man/chull.Rd
+  -empty_dir: branches/R-noNULLenv/src/library/graphics/man/nclass.Rd
+  +file_prop: branches/R-noNULLenv/po/RGui-pt_BR.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/base/inst/po/pt_BR/LC_MESSAGES/R-base.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/grDevices/inst/po/en_GB/LC_MESSAGES/R-grDevices.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/methods/inst/po/zh_CN/LC_MESSAGES/R-methods.mo svn:mime-type application/octet-stream
+r35377
+r35410
+r35412
+r35449
+  -empty_dir: branches/R-noNULLenv/src/library/utils/man/iconv.Rd
+r36017
+  -empty_dir: branches/R-noNULLenv/src/gnuwin32/fixed/etc/Rprofile
+  -empty_dir: branches/R-noNULLenv/src/library/grDevices/inst/afm/AdobeStd.enc
+  -empty_dir: branches/R-noNULLenv/src/library/grDevices/inst/afm/AdobeSym.enc
+  -empty_dir: branches/R-noNULLenv/src/library/grDevices/inst/afm/ISOLatin1.enc
+  -empty_dir: branches/R-noNULLenv/src/library/grDevices/inst/afm/ISOLatin2.enc
+  -empty_dir: branches/R-noNULLenv/src/library/grDevices/inst/afm/ISOLatin9.enc
+  -empty_dir: branches/R-noNULLenv/src/library/grDevices/inst/afm/MacRoman.enc
+  -empty_dir: branches/R-noNULLenv/src/library/grDevices/inst/afm/PDFDoc.enc
+  -empty_dir: branches/R-noNULLenv/src/library/grDevices/inst/afm/TeXtext.enc
+  -empty_dir: branches/R-noNULLenv/src/library/grDevices/inst/afm/WinAnsi.enc
+  -empty_dir: branches/R-noNULLenv/src/library/methods/R/cbind-rbind.R
+  +file_prop: branches/R-noNULLenv/po/RGui-ru.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/po/RGui-zh_TW.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/po/zh_TW.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/splines/inst/po/ru/LC_MESSAGES/splines.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/stats/inst/po/pt_BR/LC_MESSAGES/stats.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/src/library/tools/inst/po/ru/LC_MESSAGES/R-tools.mo svn:mime-type application/octet-stream
+  +file_prop: branches/R-noNULLenv/tools/getsp.class svn:mime-type application/octet-stream
+r36065
+r36069
+r36075
+r36084
+r36085
+  -empty_dir: branches/R-noNULLenv/debian
+r36167
+r36169

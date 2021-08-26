@@ -1,0 +1,38 @@
+r30285
+  -empty_dir: Attic
+  -empty_dir: src/library/base/INDEX
+  -empty_dir: src/library/utils/man/utils-internal.Rd
+  +file_prop: src/gnuwin32/graphapp/gifs/cam.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/color.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/console.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/copy.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/copy2.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/copypaste.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/cut.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/erase.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/help.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/open.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/open2.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/paste.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/print.gif svn:mime-type application/octet-stream
+  +file_prop: src/gnuwin32/graphapp/gifs/save.gif svn:mime-type application/octet-stream
+  +file_prop: src/library/BuildAll.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/ctest/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/eda/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/grid/inst/doc/uguide.pdf svn:mime-type application/octet-stream
+  +file_prop: src/library/lqs/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/modreg/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/mva/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/nls/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/splines/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/ts/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/macintosh/FF_CREATE svn:mime-type application/octet-stream
+  +file_prop: src/macintosh/GETCONFIG svn:mime-type application/octet-stream
+  +file_prop: src/macintosh/GETDESC svn:mime-type application/octet-stream
+  +file_prop: src/macintosh/GETVERSION svn:mime-type application/octet-stream
+  +file_prop: src/macintosh/MPWBuild_R svn:mime-type application/octet-stream
+  +file_prop: src/macintosh/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/macintosh/ReadMe.MPW svn:mime-type application/octet-stream
+  +file_prop: src/modules/BuildAll.mac svn:mime-type application/octet-stream
+  +file_prop: src/modules/lapack/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/modules/vfonts/Makefile.mac svn:mime-type application/octet-stream

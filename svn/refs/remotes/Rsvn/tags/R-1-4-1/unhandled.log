@@ -1,0 +1,8 @@
+r18029
+  -empty_dir: Attic
+  -empty_dir: debian/dirs
+  -empty_dir: debian/docs
+  -empty_dir: debian/logic
+  -empty_dir: debian/menu
+  -empty_dir: debian/postinst
+  -empty_dir: debian/r-doc-pdf.links

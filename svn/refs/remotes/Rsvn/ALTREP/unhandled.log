@@ -1,0 +1,255 @@
+r71308
+r71309
+r71310
+r71315
+r71359
+r71385
+r71406
+r71453
+r71454
+r71455
+r71456
+r71458
+r71459
+r71525
+r71542
+r71543
+r71544
+r71545
+r71546
+r71554
+r71555
+r71557
+r71564
+r71565
+r71566
+r71570
+r71571
+r71572
+r71573
+r71575
+r71576
+r71577
+r71578
+r71579
+r71580
+r71581
+r71587
+r71602
+r71603
+r71604
+r71605
+r71630
+r71631
+r71676
+  -empty_dir: branches/ALTREP/src/library/methods/man/Classes.Rd
+  -empty_dir: branches/ALTREP/src/library/methods/man/Methods.Rd
+  +file_prop: branches/ALTREP/src/main/split-incl.c svn:eol-style native
+r71677
+r71683
+r72039
+r72043
+r72048
+r72049
+  -empty_dir: branches/ALTREP/src/library/tools/R/package.dependencies.R
+  -empty_dir: branches/ALTREP/src/library/tools/R/pkgDepends.R
+  -empty_dir: branches/ALTREP/src/library/tools/man/getDepList.Rd
+  -empty_dir: branches/ALTREP/src/library/tools/man/installFoundDepends.Rd
+  -empty_dir: branches/ALTREP/src/library/tools/man/package.dependencies.Rd
+r72060
+r72062
+r72074
+r72087
+r72095
+r72114
+r72116
+r72118
+r72119
+r72120
+r72121
+r72138
+r72825
+r72827
+r72828
+r72830
+r72834
+r72835
+r72836
+r72837
+r72838
+r72841
+r72849
+r72859
+r73104
+  -empty_dir: branches/ALTREP/src/library/base/R/lower.tri.R
+  -empty_dir: branches/ALTREP/src/library/base/R/upper.tri.R
+r73106
+r73123
+r73146
+r73190
+r73191
+r73193
+r73196
+r73203
+r73204
+r73205
+r73206
+r73209
+r73210
+r73218
+r73219
+r73223
+r73224
+r73233
+r73234
+r73235
+r73236
+r73237
+r73244
+r73245
+r73246
+r73247
+r73253
+r73277
+r73278
+r73280
+r73281
+r73282
+r73283
+r73284
+r73285
+r73286
+r73292
+r73293
+r73297
+r73330
+r73331
+r73332
+r73337
+r73338
+r73339
+r73340
+r73361
+r73363
+r73364
+r73365
+r73366
+r73386
+r73387
+r73389
+r73391
+r73394
+r73406
+r73408
+r73411
+r73413
+r73439
+r73442
+r73444
+r73447
+r73448
+r73449
+r73450
+r73452
+r73453
+r73455
+r73482
+r73483
+r73484
+r73485
+r73498
+r73512
+r73514
+r73515
+r73523
+r73524
+r73525
+r73528
+r73531
+r73532
+r73533
+r73565
+r73566
+r73597
+r73634
+r73637
+r73638
+r73639
+r73652
+r73665
+r73669
+r73671
+r73697
+r73714
+r73717
+r73719
+r73720
+r73722
+r73761
+r73763
+r73768
+r73855
+r73862
+r73864
+r73865
+r73939
+r74117
+r74194
+r74218
+r74219
+r74220
+r74221
+r74222
+r74223
+r74225
+r74226
+r74227
+r74228
+r74267
+r74291
+r74306
+r74337
+  -empty_dir: branches/ALTREP/src/nmath/expm1.c
+r74390
+r74392
+r74397
+r74398
+r74399
+r74400
+r74401
+r74404
+r74445
+r74928
+  -empty_dir: branches/ALTREP/src/library/stats/tests/hills.rda
+  +file_prop: branches/ALTREP/src/library/stats/tests/hills.rds svn:mime-type application/x-xz
+r74932
+r74933
+r74936
+r74937
+r74938
+r74939
+r75129
+r75130
+r75203
+  -empty_dir: branches/ALTREP/src/library/grDevices/man/unix/quartz.Rd
+  -empty_dir: branches/ALTREP/src/library/grDevices/man/unix/quartzFonts.Rd
+  -empty_dir: branches/ALTREP/src/library/grDevices/man/unix/x11.Rd
+  -empty_dir: branches/ALTREP/src/library/grDevices/man/unix/x11Fonts.Rd
+  -empty_dir: branches/ALTREP/src/library/grDevices/man/windows/bringToTop.Rd
+  -empty_dir: branches/ALTREP/src/library/grDevices/man/windows/msgWindow.Rd
+  -empty_dir: branches/ALTREP/src/library/grDevices/man/windows/windows.Rd
+  -empty_dir: branches/ALTREP/src/library/grDevices/man/windows/windows.options.Rd
+  -empty_dir: branches/ALTREP/src/library/grDevices/man/windows/windowsFonts.Rd
+  -empty_dir: branches/ALTREP/src/library/utils/man/unix
+  -empty_dir: branches/ALTREP/src/library/utils/man/windows
+r75280
+r75365
+  -empty_dir: branches/ALTREP/src/library/tools/man/vignetteDepends.Rd
+  -empty_dir: branches/ALTREP/src/modules/lapack/R.patch
+r75367
+r75382
+r75393
+r75394
+r75483
+r75507
+r75512

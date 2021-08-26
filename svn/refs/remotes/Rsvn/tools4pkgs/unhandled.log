@@ -1,0 +1,11 @@
+r71686
+r71690
+r71692
+  -empty_dir: branches/tools4pkgs/src/library/tools/R/package.dependencies.R
+  -empty_dir: branches/tools4pkgs/src/library/tools/R/pkgDepends.R
+  -empty_dir: branches/tools4pkgs/src/library/tools/man/getDepList.Rd
+  -empty_dir: branches/tools4pkgs/src/library/tools/man/installFoundDepends.Rd
+  -empty_dir: branches/tools4pkgs/src/library/tools/man/package.dependencies.Rd
+r71694
+r71695
+  -empty_dir: branches/tools4pkgs/src/library/tools/tests/packages

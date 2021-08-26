@@ -1,0 +1,60 @@
+r46065
+r46067
+r46233
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/dos_glob.c
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/dos_glob.h
+r46940
+  -empty_dir: branches/djm-SweaveRd/po/RGui-ko.gmo
+  -empty_dir: branches/djm-SweaveRd/po/RGui-ko.po
+  -empty_dir: branches/djm-SweaveRd/src/extra/pcre/pcre_ucp_searchfuncs.c
+  -empty_dir: branches/djm-SweaveRd/src/extra/pcre/ucpinternal.h
+  -empty_dir: branches/djm-SweaveRd/src/extra/pcre/ucptable.h
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/Rproxy.def
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/SC_proxy.h
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/SC_system.h
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/bdx.h
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/bdx_SEXP.c
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/bdx_SEXP.h
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/bdx_com.c
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/bdx_com.h
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/bdx_util.c
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/bdx_util.h
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/com_util.c
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/com_util.h
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/rproxy.c
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/rproxy.h
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/rproxy_dev.c
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/rproxy_impl.c
+  -empty_dir: branches/djm-SweaveRd/src/gnuwin32/front-ends/rproxy_impl.h
+  -empty_dir: branches/djm-SweaveRd/src/library/utils/R/unix/bug.report.R
+  -empty_dir: branches/djm-SweaveRd/src/library/utils/R/windows/bug.report.R
+  -empty_dir: branches/djm-SweaveRd/src/scripts/BATCH
+  -empty_dir: branches/djm-SweaveRd/src/scripts/LINK
+  -empty_dir: branches/djm-SweaveRd/src/scripts/Rcmd
+  -empty_dir: branches/djm-SweaveRd/src/scripts/Rd2dvi
+  -empty_dir: branches/djm-SweaveRd/src/scripts/Rd2txt
+  -empty_dir: branches/djm-SweaveRd/src/scripts/Rdiff
+  -empty_dir: branches/djm-SweaveRd/src/scripts/Stangle
+  -empty_dir: branches/djm-SweaveRd/src/scripts/Sweave
+  -empty_dir: branches/djm-SweaveRd/src/scripts/config
+  -empty_dir: branches/djm-SweaveRd/src/scripts/f77_f2c
+  -empty_dir: branches/djm-SweaveRd/src/scripts/javareconf
+  -empty_dir: branches/djm-SweaveRd/src/scripts/mkinstalldirs
+  -empty_dir: branches/djm-SweaveRd/src/scripts/pager
+  +dir_prop: branches/djm-SweaveRd svn:mergeinfo /branches/djm-parseRd:46922%0A/trunk:46233-46938
+  +file_prop: branches/djm-SweaveRd/po/RGui-ko.gmo svn:mime-type application/octet-stream
+  +file_prop: branches/djm-SweaveRd/src/scripts/BATCH.in svn:keywords Rev
+  +file_prop: branches/djm-SweaveRd/src/scripts/LINK.in svn:keywords Rev
+  +file_prop: branches/djm-SweaveRd/src/scripts/Rd2dvi.in svn:keywords Rev
+  +file_prop: branches/djm-SweaveRd/src/scripts/Rd2txt.in svn:keywords Rev
+  +file_prop: branches/djm-SweaveRd/src/scripts/Stangle.in svn:keywords Rev
+  +file_prop: branches/djm-SweaveRd/src/scripts/Sweave.in svn:keywords Rev
+  +file_prop: branches/djm-SweaveRd/src/scripts/config.in svn:keywords Rev
+  +file_prop: branches/djm-SweaveRd/src/scripts/f77_f2c.in svn:keywords Rev
+r47277
+r47280
+r47290
+r47291
+r47293
+  -empty_dir: branches/djm-SweaveRd/src/library/tools/R/RdConv2.R
+  -empty_dir: branches/djm-SweaveRd/src/main/gramRd.y

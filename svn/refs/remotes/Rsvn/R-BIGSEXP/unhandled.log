@@ -1,0 +1,81 @@
+r63512
+r63522
+r63838
+  -empty_dir: branches/R-BIGSEXP/tests/Native
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63550
+r63839
+  -empty_dir: branches/R-BIGSEXP/src/library/utils/man/unix/BATCH.Rd
+  -empty_dir: branches/R-BIGSEXP/src/library/utils/man/unix/RHOME.Rd
+  -empty_dir: branches/R-BIGSEXP/src/library/utils/man/windows/BATCH.Rd
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63600
+r63842
+  -empty_dir: branches/R-BIGSEXP/src/library/grDevices/man/grDevices-defunct.Rd
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63700
+r63843
+  -empty_dir: branches/R-BIGSEXP/ONEWS
+  -empty_dir: branches/R-BIGSEXP/OONEWS
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63750
+r63844
+  -empty_dir: branches/R-BIGSEXP/ONEWS
+  -empty_dir: branches/R-BIGSEXP/OONEWS
+  -empty_dir: branches/R-BIGSEXP/OOONEWS
+  -empty_dir: branches/R-BIGSEXP/doc/ONEWS.Rd
+  -empty_dir: branches/R-BIGSEXP/src/library/tools/R/readNEWS.R
+  -empty_dir: branches/R-BIGSEXP/src/library/tools/man/readNEWS.Rd
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63843
+r63847
+r63851
+r68542
+  -empty_dir: branches/R-BIGSEXP/share/texmf/tex/latex/upquote.sty
+  -empty_dir: branches/R-BIGSEXP/src/library/grid/man/convertNative.Rd
+  -empty_dir: branches/R-BIGSEXP/src/library/grid/man/grid.arrows.Rd
+  -empty_dir: branches/R-BIGSEXP/src/library/grid/man/grid.collection.Rd
+  -empty_dir: branches/R-BIGSEXP/src/library/grid/man/pop.viewport.Rd
+  -empty_dir: branches/R-BIGSEXP/src/library/grid/man/push.viewport.Rd
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63843%2C63853-64000
+r68552
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63843%2C63852-64500
+  +file_prop: branches/R-BIGSEXP/doc/manual/images/QQ.png svn:mime-type application/octet-stream
+  +file_prop: branches/R-BIGSEXP/doc/manual/images/ecdf.png svn:mime-type application/octet-stream
+  +file_prop: branches/R-BIGSEXP/doc/manual/images/fig11.png svn:mime-type application/octet-stream
+  +file_prop: branches/R-BIGSEXP/doc/manual/images/fig12.png svn:mime-type application/octet-stream
+  +file_prop: branches/R-BIGSEXP/doc/manual/images/hist.png svn:mime-type application/octet-stream
+  +file_prop: branches/R-BIGSEXP/doc/manual/images/ice.png svn:mime-type application/octet-stream
+r68553
+  -empty_dir: branches/R-BIGSEXP/src/library/grid/inst/doc/DivByZero.txt
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63843%2C63852-65000
+  +file_prop: branches/R-BIGSEXP/tests/EmbeddedNuls.csv svn:mime-type application/octet-stream
+r68681
+  -empty_dir: branches/R-BIGSEXP/src/include/README
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63843%2C63852-65500
+  +file_prop: branches/R-BIGSEXP/src/library/datasets/data/UScitiesD.rda svn:mime-type application/octet-stream
+  +file_prop: branches/R-BIGSEXP/src/library/translations/inst/de/LC_MESSAGES/utils.mo svn:mime-type application/octet-stream
+r68718
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63843%2C63852-66100
+r68729
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63843%2C63852-66500
+r68733
+  -empty_dir: branches/R-BIGSEXP/src/include/memcheck.h
+  -empty_dir: branches/R-BIGSEXP/src/include/valgrind.h
+  -empty_dir: branches/R-BIGSEXP/src/library/utils/R/windows/help.start.R
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63843%2C63852-67000
+r68745
+  -empty_dir: branches/R-BIGSEXP/src/extra/bzip2/bzcompress.c
+  -empty_dir: branches/R-BIGSEXP/src/gnuwin32/bitmap
+  -empty_dir: branches/R-BIGSEXP/src/include/Rmodules/Rvfonts.h
+  -empty_dir: branches/R-BIGSEXP/src/library/base/R/exists.R
+  -empty_dir: branches/R-BIGSEXP/src/library/grDevices/src/rbitmap.h
+  -empty_dir: branches/R-BIGSEXP/src/main/vfonts.c
+  -empty_dir: branches/R-BIGSEXP/src/modules/vfonts
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63843%2C63852-67500
+r68746
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63843%2C63852-68000
+  +file_prop: branches/R-BIGSEXP/src/library/tools/R/sysdata.rda svn:mime-type application/octet-stream
+r68747
+  -empty_dir: branches/R-BIGSEXP/src/extra/bzip2
+  -empty_dir: branches/R-BIGSEXP/src/extra/pcre
+  -empty_dir: branches/R-BIGSEXP/src/extra/xz
+  -empty_dir: branches/R-BIGSEXP/src/extra/zlib
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63843%2C63852-68500
+r68748
+  +dir_prop: branches/R-BIGSEXP svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-glmscore:55360-55826%0A/trunk:63523-63843%2C63852-68747

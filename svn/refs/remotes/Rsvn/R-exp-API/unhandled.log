@@ -1,0 +1,38 @@
+r7002
+  -empty_dir: Attic
+r7003
+  -empty_dir: branches/R-exp-API/src/include/Arith.h
+  -empty_dir: branches/R-exp-API/src/include/Blas.h
+  -empty_dir: branches/R-exp-API/src/include/Complex.h
+  -empty_dir: branches/R-exp-API/src/include/Errormsg.h
+  -empty_dir: branches/R-exp-API/src/include/Linpack.h
+r7006
+r7007
+r7016
+r7017
+r7108
+r7132
+r7133
+r7190
+r7191
+  -empty_dir: branches/R-exp-API/src/regex/COPYRIGHT
+  -empty_dir: branches/R-exp-API/src/regex/Makefile.inc
+  -empty_dir: branches/R-exp-API/src/regex/WHATSNEW
+  -empty_dir: branches/R-exp-API/src/regex/cclass.h
+  -empty_dir: branches/R-exp-API/src/regex/cname.h
+  -empty_dir: branches/R-exp-API/src/regex/engine.c
+  -empty_dir: branches/R-exp-API/src/regex/re_format.7
+  -empty_dir: branches/R-exp-API/src/regex/regcomp.c
+  -empty_dir: branches/R-exp-API/src/regex/regerror.c
+  -empty_dir: branches/R-exp-API/src/regex/regex.3
+  -empty_dir: branches/R-exp-API/src/regex/regex2.h
+  -empty_dir: branches/R-exp-API/src/regex/regexec.c
+  -empty_dir: branches/R-exp-API/src/regex/regfree.c
+  -empty_dir: branches/R-exp-API/src/regex/utils.h
+r7192
+r7193
+  -empty_dir: branches/R-exp-API/src/appl/uncmin.f
+r7194
+  -empty_dir: branches/R-exp-API/src/regex/README
+  -empty_dir: branches/R-exp-API/src/regex/regex.h
+r7195

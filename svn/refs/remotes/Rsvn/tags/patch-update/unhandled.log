@@ -1,0 +1,24 @@
+r30286
+  -empty_dir: Attic
+  -empty_dir: src/library/base/INDEX
+  -empty_dir: src/library/utils/man/utils-internal.Rd
+  +file_prop: src/library/BuildAll.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/ctest/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/eda/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/grid/inst/doc/uguide.pdf svn:mime-type application/octet-stream
+  +file_prop: src/library/lqs/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/modreg/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/mva/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/nls/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/splines/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/library/ts/src/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/macintosh/FF_CREATE svn:mime-type application/octet-stream
+  +file_prop: src/macintosh/GETCONFIG svn:mime-type application/octet-stream
+  +file_prop: src/macintosh/GETDESC svn:mime-type application/octet-stream
+  +file_prop: src/macintosh/GETVERSION svn:mime-type application/octet-stream
+  +file_prop: src/macintosh/MPWBuild_R svn:mime-type application/octet-stream
+  +file_prop: src/macintosh/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/macintosh/ReadMe.MPW svn:mime-type application/octet-stream
+  +file_prop: src/modules/BuildAll.mac svn:mime-type application/octet-stream
+  +file_prop: src/modules/lapack/Makefile.mac svn:mime-type application/octet-stream
+  +file_prop: src/modules/vfonts/Makefile.mac svn:mime-type application/octet-stream

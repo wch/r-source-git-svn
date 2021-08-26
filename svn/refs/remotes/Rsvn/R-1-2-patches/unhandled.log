@@ -1,0 +1,1278 @@
+r11844
+  -empty_dir: Attic
+r11845
+r11847
+r11852
+r11854
+r11855
+r11856
+r11857
+r11858
+r11859
+r11860
+r11861
+r11862
+r11863
+r11864
+r11865
+  -empty_dir: branches/R-1-2-patches/tools/Rdnewer.in
+  -empty_dir: branches/R-1-2-patches/tools/help2man.in
+  -empty_dir: branches/R-1-2-patches/tools/install-info.in
+  -empty_dir: branches/R-1-2-patches/tools/pkg2tex.in
+r11869
+r11870
+r11871
+r11872
+r11873
+r11874
+r11876
+r11878
+r11879
+r11880
+r11881
+r11882
+r11883
+r11884
+r11885
+r11889
+r11890
+r11891
+r11892
+r11894
+r11895
+r11896
+r11898
+r11899
+r11900
+r11904
+r11905
+r11907
+r11908
+r11911
+r11912
+r11915
+r11916
+r11917
+r11919
+r11921
+r11924
+r11926
+r11929
+r11930
+r11931
+r11932
+r11933
+r11934
+r11936
+r11937
+r11938
+r11939
+r11942
+r11943
+r11944
+r11945
+r11946
+r11947
+r11948
+r11949
+r11952
+r11953
+r11954
+r11955
+r11956
+r11957
+r11958
+r11959
+r11960
+r11961
+r11962
+r11963
+r11964
+r11967
+r11968
+r11969
+r11970
+r11971
+r11972
+r11973
+r11974
+r11975
+r11976
+r11978
+r11979
+r11980
+r11981
+r11983
+r11984
+r11985
+r11986
+r11987
+r11988
+r11989
+r11990
+r11991
+r11992
+r11993
+r11994
+r11997
+r11998
+r11999
+r12000
+r12001
+r12004
+r12005
+r12006
+r12007
+r12008
+r12009
+r12010
+r12011
+r12014
+r12015
+r12016
+r12019
+r12020
+r12021
+r12024
+r12027
+r12028
+r12029
+r12030
+r12031
+r12032
+r12033
+r12034
+r12035
+r12036
+r12037
+r12038
+r12039
+r12040
+r12043
+r12044
+r12046
+r12047
+r12048
+r12049
+r12050
+r12051
+  -empty_dir: branches/R-1-2-patches/MIRROR-SITES
+r12052
+r12053
+r12054
+r12055
+r12056
+r12057
+r12058
+r12060
+r12062
+r12063
+r12064
+r12065
+r12066
+  -empty_dir: branches/R-1-2-patches/doc/html/resource.html
+r12068
+r12069
+r12070
+r12071
+r12072
+  -empty_dir: branches/R-1-2-patches/src/scripts/maketitle
+r12073
+r12074
+r12075
+r12076
+r12077
+r12078
+r12079
+r12081
+r12082
+  -empty_dir: branches/R-1-2-patches/src/gnuwin32/maketitle
+r12083
+r12084
+r12085
+r12086
+r12087
+r12088
+r12089
+r12090
+r12091
+r12092
+r12094
+r12095
+r12096
+r12097
+r12100
+r12101
+r12103
+r12104
+r12105
+r12106
+r12107
+r12108
+r12109
+r12110
+r12111
+r12112
+r12113
+r12114
+r12115
+r12116
+r12117
+r12118
+r12119
+r12120
+r12121
+r12124
+r12125
+r12126
+r12127
+r12128
+  +file_prop: branches/R-1-2-patches/tests/reg-IO.R svn:mime-type application/octet-stream
+r12129
+r12130
+r12131
+r12132
+r12133
+r12134
+r12135
+r12136
+r12137
+r12139
+r12141
+r12142
+r12143
+r12144
+r12145
+  -empty_dir: branches/R-1-2-patches/tests/gct-tail
+r12146
+r12147
+r12148
+r12149
+r12150
+r12152
+r12153
+r12154
+r12155
+r12156
+r12157
+r12160
+r12161
+r12162
+r12163
+r12164
+r12165
+r12166
+r12167
+r12168
+r12169
+r12170
+r12171
+r12172
+r12173
+r12175
+r12176
+r12177
+r12178
+r12179
+r12180
+r12181
+r12182
+r12183
+r12186
+r12187
+r12188
+r12189
+r12191
+r12193
+r12194
+r12195
+r12196
+r12197
+r12200
+r12201
+r12202
+r12203
+r12204
+r12205
+r12206
+r12207
+r12209
+r12211
+r12212
+r12213
+r12214
+r12215
+r12216
+r12217
+r12218
+r12219
+r12220
+r12221
+r12222
+r12223
+r12224
+r12225
+r12226
+r12229
+r12230
+r12231
+r12232
+r12234
+r12235
+r12237
+r12239
+r12240
+r12242
+r12243
+r12244
+r12245
+r12246
+r12247
+r12248
+r12250
+r12251
+r12252
+r12254
+r12255
+r12267
+r12269
+r12272
+r12274
+r12275
+  -empty_dir: branches/R-1-2-patches/afm/agd_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/agdo____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/agw_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/agwo____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/bkd_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/bkdi____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/bkl_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/bkli____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/cob_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/cobo____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/com_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/coo_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/hv______.lt1
+  -empty_dir: branches/R-1-2-patches/afm/hvb_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/hvbo____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/hvn_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/hvnb____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/hvnbo___.lt1
+  -empty_dir: branches/R-1-2-patches/afm/hvno____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/hvo_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/ncb_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/ncbi____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/nci_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/ncr_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/pob_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/pobi____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/poi_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/por_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/tib_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/tibi____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/tii_____.lt1
+  -empty_dir: branches/R-1-2-patches/afm/tir_____.lt1
+r12276
+r12277
+r12278
+r12280
+r12281
+r12282
+r12283
+r12284
+r12285
+r12289
+r12290
+r12293
+r12294
+r12295
+r12296
+r12298
+r12299
+r12300
+r12301
+r12304
+r12307
+r12308
+r12533
+r12536
+r12537
+r12538
+r12539
+r12541
+r12543
+r12544
+r12545
+r12546
+r12547
+r12548
+r12549
+r12551
+r12553
+r12554
+r12555
+r12556
+r12558
+r12559
+r12562
+r12564
+r12565
+r12566
+r12567
+r12569
+r12570
+r12571
+r12572
+r12579
+r12580
+r12581
+r12582
+r12584
+r12587
+r12590
+r12591
+r12592
+r12593
+r12594
+r12595
+r12596
+r12597
+r12598
+r12599
+r12601
+r12602
+r12603
+  -empty_dir: branches/R-1-2-patches/src/macintosh/devMacintosh.c%7E
+r12604
+r12605
+r12606
+r12607
+r12608
+r12610
+r12613
+r12615
+r12616
+r12617
+r12618
+r12619
+r12620
+r12621
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/blas.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/ch2inv.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/chol.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/dpbfa.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/dpbsl.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/dpoco.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/dpodi.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/dpofa.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/dposl.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/dqrdc.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/dqrdc2.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/dqrls.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/dqrsl.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/dqrutl.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/dsvdc.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/dtrco.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/dtrsl.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/eigen.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/lminfl.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/zblas.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/zhico.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/zhifa.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/zhisl.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/zsico.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/zsifa.c
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh/zsisl.c
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh/bsplvd.c
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh/bvalue.c
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh/bvalus.c
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh/i_len.c
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh/loessf.c
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh/pow_ii.c
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh/ppr.c
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh/qsbart.c
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh/sbart.c
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh/sgram.c
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh/sinerp.c
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh/sslvrg.c
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh/stxwx.c
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh/xxxsbart_com.c
+  -empty_dir: branches/R-1-2-patches/src/library/mva/src/macintosh/hclust.c
+  -empty_dir: branches/R-1-2-patches/src/library/mva/src/macintosh/kmns.c
+  -empty_dir: branches/R-1-2-patches/src/library/ts/src/macintosh/eureka.c
+  -empty_dir: branches/R-1-2-patches/src/library/ts/src/macintosh/starma.c
+  -empty_dir: branches/R-1-2-patches/src/library/ts/src/macintosh/stl.c
+r12622
+r12623
+r12624
+r12625
+r12626
+r12629
+r12631
+r12632
+r12633
+r12634
+r12635
+r12636
+  -empty_dir: branches/R-1-2-patches/src/macintosh/waste/copyright
+r12637
+  -empty_dir: branches/R-1-2-patches/src/macintosh/bin
+r12638
+r12639
+r12640
+r12641
+r12642
+r12643
+r12646
+r12647
+r12648
+r12649
+r12650
+r12651
+r12652
+r12653
+r12654
+r12655
+r12656
+r12657
+r12658
+r12659
+r12660
+r12661
+r12662
+r12663
+r12664
+r12667
+r12669
+r12670
+r12672
+r12673
+r12676
+r12679
+  -empty_dir: branches/R-1-2-patches/src/gnuwin32/unzip/COPYING
+r12681
+r12682
+r12685
+r12687
+r12689
+  -empty_dir: branches/R-1-2-patches/src/include/Devices.h
+r12693
+  -empty_dir: branches/R-1-2-patches/src/macintosh/psignal.h
+r12695
+r12696
+r12697
+  -empty_dir: branches/R-1-2-patches/src/appl/macintosh
+  -empty_dir: branches/R-1-2-patches/src/include/config.mac.h
+  -empty_dir: branches/R-1-2-patches/src/macintosh/MAC_README.txt
+  -empty_dir: branches/R-1-2-patches/src/macintosh/cwpro/R.mcp.xml
+  -empty_dir: branches/R-1-2-patches/src/macintosh/waste/WASTELib
+  -empty_dir: branches/R-1-2-patches/src/macintosh/waste/WEExtraHooks.c
+  -empty_dir: branches/R-1-2-patches/src/macintosh/waste/WEExtraHooks.h
+  -empty_dir: branches/R-1-2-patches/src/macintosh/waste/WEExtras.c
+  -empty_dir: branches/R-1-2-patches/src/macintosh/waste/WEExtras.h
+  -empty_dir: branches/R-1-2-patches/src/macintosh/waste/WEObjectHandlers.c
+  -empty_dir: branches/R-1-2-patches/src/macintosh/waste/WEObjectHandlers.h
+  -empty_dir: branches/R-1-2-patches/src/macintosh/xdr/Makefile
+  -empty_dir: branches/R-1-2-patches/src/macintosh/xdr/README.txt
+  -empty_dir: branches/R-1-2-patches/src/macintosh/xdr/copyrght.txt
+  -empty_dir: branches/R-1-2-patches/src/macintosh/xdr/rpc
+  -empty_dir: branches/R-1-2-patches/src/macintosh/xdr/xdr_float.c
+  -empty_dir: branches/R-1-2-patches/src/macintosh/xdr/xdr_stdio.c
+r12698
+r12699
+r12700
+  -empty_dir: branches/R-1-2-patches/src/macintosh/xdr
+r12701
+r12704
+r12705
+r12706
+r12709
+r12710
+r12711
+r12713
+r12714
+r12715
+r12716
+r12717
+r12718
+r12719
+r12721
+r12722
+r12723
+r12724
+r12726
+r12727
+r12728
+r12729
+r12732
+r12733
+  -empty_dir: branches/R-1-2-patches/src/macintosh/unzip
+r12734
+  -empty_dir: branches/R-1-2-patches/src/macintosh/dir/FullPath.c
+  -empty_dir: branches/R-1-2-patches/src/macintosh/dir/FullPath.h
+  -empty_dir: branches/R-1-2-patches/src/macintosh/waste/CarbonCompatibility.c
+  -empty_dir: branches/R-1-2-patches/src/macintosh/waste/CarbonCompatibility.h
+  -empty_dir: branches/R-1-2-patches/src/macintosh/waste/WASTE.h
+  -empty_dir: branches/R-1-2-patches/src/macintosh/waste/WEDemo.h
+r12735
+r12736
+r12737
+r12739
+r12740
+  -empty_dir: branches/R-1-2-patches/src/macintosh/OtherDevices.c
+  -empty_dir: branches/R-1-2-patches/src/macintosh/gui/StandardGetFolder.c
+  -empty_dir: branches/R-1-2-patches/src/macintosh/gui/StandardGetFolder.h
+r12741
+  -empty_dir: branches/R-1-2-patches/src/library/ctest/src/macintosh/Icon_
+  -empty_dir: branches/R-1-2-patches/src/library/eda/src/macintosh/Icon_
+  -empty_dir: branches/R-1-2-patches/src/library/nls/src/macintosh/Icon_
+  -empty_dir: branches/R-1-2-patches/src/library/splines/src/macintosh/Icon_
+  -empty_dir: branches/R-1-2-patches/src/library/ts/src/macintosh/Icon_
+r12742
+r12743
+r12744
+r12745
+r12746
+r12749
+r12750
+r12751
+  -empty_dir: branches/R-1-2-patches/src/macintosh/FFDecl.h
+  -empty_dir: branches/R-1-2-patches/src/macintosh/FFTab.h
+  -empty_dir: branches/R-1-2-patches/src/macintosh/Rconfig.h
+  -empty_dir: branches/R-1-2-patches/src/macintosh/Rversion.h
+r12752
+r12753
+r12754
+r12755
+r12756
+r12757
+r12758
+r12759
+r12760
+r12761
+r12762
+r12763
+r12766
+r12767
+r12768
+r12769
+r12770
+r12771
+r12772
+r12773
+r12774
+r12775
+r12776
+r12777
+r12779
+r12782
+r12783
+r12786
+r12787
+r12788
+r12789
+r12791
+r12793
+r12794
+r12795
+  -empty_dir: branches/R-1-2-patches/src/macintosh/build.help
+r12796
+r12797
+r12798
+r12799
+r12800
+r12801
+r12802
+r12803
+r12804
+r12805
+r12806
+r12807
+r12808
+r12809
+r12810
+r12811
+  -empty_dir: branches/R-1-2-patches/src/scripts/maketitle.awk
+r12812
+r12813
+r12814
+r12815
+r12816
+r12817
+r12818
+r12821
+r12822
+  -empty_dir: branches/R-1-2-patches/src/library/base/R/unix/undoc.R
+  -empty_dir: branches/R-1-2-patches/src/library/base/R/windows/undoc.R
+r12824
+r12825
+r12826
+r12827
+r12830
+r12832
+r12833
+r12834
+r12835
+r12836
+r12837
+r12838
+r12842
+r12845
+r12846
+r12847
+r12849
+r12850
+r12851
+r12852
+r12853
+r12856
+r12857
+  -empty_dir: branches/R-1-2-patches/src/library/ctest/src/macintosh
+  -empty_dir: branches/R-1-2-patches/src/library/eda/src/macintosh
+  -empty_dir: branches/R-1-2-patches/src/library/lqs/src/macintosh
+  -empty_dir: branches/R-1-2-patches/src/library/modreg/src/macintosh
+  -empty_dir: branches/R-1-2-patches/src/library/mva/src/macintosh
+  -empty_dir: branches/R-1-2-patches/src/library/nls/src/macintosh
+  -empty_dir: branches/R-1-2-patches/src/library/splines/src/macintosh
+  -empty_dir: branches/R-1-2-patches/src/library/ts/src/macintosh
+r12858
+r12859
+r12860
+r12861
+r12862
+r12863
+r12864
+r12865
+r12868
+r12869
+r12870
+r12871
+r12872
+r12873
+r12874
+r12875
+r12876
+r12877
+r12880
+  -empty_dir: branches/R-1-2-patches/src/appl/zblas.f
+  -empty_dir: branches/R-1-2-patches/src/appl/zhico.f
+  -empty_dir: branches/R-1-2-patches/src/appl/zhifa.f
+  -empty_dir: branches/R-1-2-patches/src/appl/zhisl.f
+  -empty_dir: branches/R-1-2-patches/src/appl/zsico.f
+  -empty_dir: branches/R-1-2-patches/src/appl/zsifa.f
+  -empty_dir: branches/R-1-2-patches/src/appl/zsisl.f
+r12881
+r12884
+r12885
+r12886
+r12888
+r12889
+r12890
+r12891
+r12894
+r12897
+r12898
+r12899
+r12900
+r12901
+  -empty_dir: branches/R-1-2-patches/src/macintosh/f2c
+r12902
+r12903
+r12904
+r12905
+r12906
+r12909
+r12910
+r12911
+r12913
+r12914
+r12915
+r12916
+r12917
+r12918
+r12921
+r12922
+r12923
+r12924
+r12925
+r12926
+r12927
+r12929
+r12931
+r12932
+r12933
+r12934
+r12937
+r12938
+r12939
+r12940
+r12941
+r12942
+r12943
+r12945
+r12946
+r12947
+r12949
+r12951
+r12952
+r12955
+r12958
+r12959
+r12960
+r12962
+r12963
+r12964
+r12966
+r12967
+r12970
+r12973
+r12975
+r12977
+  -empty_dir: branches/R-1-2-patches/src/nmath/fmod.c
+r12985
+r12988
+r12991
+r12999
+r13002
+r13005
+r13006
+r13009
+r13010
+r13018
+r13025
+r13028
+r13030
+r13031
+r13034
+r13036
+r13039
+r13043
+r13055
+r13060
+r13068
+r13071
+r13074
+r13083
+r13087
+r13089
+r13094
+r13097
+r13099
+r13102
+r13106
+r13109
+r13112
+r13122
+r13125
+r13128
+r13129
+r13132
+r13134
+r13135
+r13138
+r13140
+r13141
+r13144
+r13145
+r13148
+r13149
+r13150
+r13151
+r13154
+r13155
+r13156
+r13164
+r13166
+r13167
+r13168
+r13171
+r13174
+r13178
+r13179
+r13181
+r13182
+r13185
+r13187
+r13190
+r13191
+r13192
+r13193
+r13196
+r13197
+r13199
+r13203
+r13205
+r13207
+r13208
+r13209
+r13210
+r13211
+r13212
+r13215
+r13217
+r13218
+r13219
+r13220
+r13222
+r13225
+r13227
+  -empty_dir: branches/R-1-2-patches/etc/colors.big
+  -empty_dir: branches/R-1-2-patches/etc/colors.small
+  -empty_dir: branches/R-1-2-patches/etc/test-things.Rd
+r13228
+r13230
+r13231
+r13232
+  -empty_dir: branches/R-1-2-patches/doc/html/packages-foot.html
+r13234
+r13235
+r13236
+r13237
+r13239
+r13242
+r13243
+r13247
+r13250
+r13251
+r13253
+r13254
+r13255
+r13259
+r13260
+r13261
+r13265
+r13266
+r13267
+r13270
+r13273
+r13275
+r13279
+r13280
+r13281
+r13285
+r13286
+r13287
+r13290
+r13291
+r13293
+r13296
+r13299
+r13300
+r13302
+r13309
+r13310
+r13314
+r13322
+r13326
+r13327
+r13330
+r13335
+r13336
+r13337
+r13338
+r13341
+r13344
+r13347
+r13348
+r13349
+r13350
+r13355
+r13359
+r13361
+r13362
+r13363
+r13364
+r13367
+r13370
+r13385
+r13387
+r13389
+r13392
+r13393
+r13394
+r13395
+r13396
+  -empty_dir: branches/R-1-2-patches/src/library/base/R/dotplot.R
+  -empty_dir: branches/R-1-2-patches/src/library/base/man/dotplot.Rd
+r13397
+  -empty_dir: branches/R-1-2-patches/src/library/base/R/stripplot.R
+  -empty_dir: branches/R-1-2-patches/src/library/base/man/stripplot.Rd
+r13398
+r13399
+r13401
+r13404
+r13405
+r13407
+r13411
+r13412
+r13414
+r13415
+r13416
+r13419
+r13420
+r13421
+r13425
+r13426
+r13427
+r13430
+r13431
+r13436
+r13437
+r13438
+r13439
+r13440
+r13441
+r13444
+r13445
+r13448
+r13449
+r13450
+r13454
+r13457
+r13460
+r13461
+r13462
+r13470
+r13471
+r13472
+r13475
+r13477
+r13481
+r13482
+r13483
+r13490
+r13493
+r13497
+r13499
+r13506
+r13509
+r13510
+r13518
+r13519
+r13530
+r13534
+r13535
+r13536
+r13540
+r13542
+r13559
+r13560
+r13567
+r13568
+r13573
+r13574
+r13575
+r13584
+r13590
+r13593
+r13614
+r13615
+r13617
+r13627
+r13628
+r13629
+r13631
+r13635
+r13636
+r13637
+r13640
+r13650
+r13652
+r13656
+r13659
+r13661
+r13662
+r13665
+r13667
+r13670
+r13672
+r13675
+r13677
+r13678
+r13679
+r13680
+r13681
+r13683
+r13684
+r13685
+r13686
+r13687
+r13690
+r13698
+r13699
+r13700
+r13701
+r13702
+r13703
+r13704
+r13705
+r13706
+r13709
+r13712
+r13713
+r13714
+r13715
+r13716
+r13717
+r13718
+r13719
+r13721
+r13722
+r13723
+  -empty_dir: branches/R-1-2-patches/src/macintosh/PicComments.h
+  -empty_dir: branches/R-1-2-patches/src/macintosh/gui/WEDrags.c
+  -empty_dir: branches/R-1-2-patches/src/macintosh/print/JobDialogAppend.c
+  -empty_dir: branches/R-1-2-patches/src/macintosh/print/PrintSetup.c
+  -empty_dir: branches/R-1-2-patches/src/macintosh/print/Printing.c
+  -empty_dir: branches/R-1-2-patches/src/macintosh/print/Printing.h
+  -empty_dir: branches/R-1-2-patches/src/macintosh/print/printing2.c
+  -empty_dir: branches/R-1-2-patches/src/macintosh/simplePrint2.c
+r13727
+r13728
+r13729
+r13731
+r13734
+r13735
+r13736
+r13738
+r13741
+r13742
+r13743
+r13746
+r13748
+r13750
+r13751
+r13754
+r13756
+r13763
+r13764
+r13765
+r13768
+r13769
+r13774
+r13775
+r13777
+r13779
+r13781
+r13783
+r13786
+r13787
+r13789
+r13791
+r13794
+r13797
+r13799
+r13803
+r13814
+r13817
+r13824
+r13834
+r13837
+r13862
+r13867
+r13872
+r13886
+r13889
+r13900
+r13903
+r13922
+r13924
+r13940
+r13946
+r13961
+r13977
+r13980
+r13990
+r14007
+r14020
+r14030
+r14033
+r14042
+r14047
+r14052
+r14067
+r14076
+r14079
+r14087
+r14090
+r14112
+r14131
+r14143
+r14146
+r14158
+r14168
+r14171
+r14174
+r14188
+r14191
+r14205
+r14212
+r14222
+r14225
+r14238
+r14264
+r14269
+r14276
+r14292
+r14293
+r14296
+r14314
+r14317
+r14324
+r14334
+r14338
+r14346
+r14349
+r14363
+r14367
+r14369
+r14372
+r14375
+r14377
+r14384
+r14387
+r14398
+r14401
+r14427
+r14430
+r14444
+r14447
+r14476
+r14482
+r14485
+r14496
+r14509
+r14512
+r14513
+r14516
+r14523
+r14526
+r14540
+r14543
+r14553
+r14556
+r14572
+r14575
+r14583
+r14587
+r14606
+r14610
+r14635
+r14638
+r14653
+r14669
+r14672
+r14676
+r14690
+r14694
+r14700
+r14709
+r14712
+r14725
+r14728
+r14738
+r14741
+r14747
+r14750
+r14760
+r14763
+r14779

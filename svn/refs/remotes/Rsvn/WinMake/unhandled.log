@@ -1,0 +1,15 @@
+r30063
+  -empty_dir: Attic
+r30064
+r30065
+r30070
+r30071
+  -empty_dir: branches/WinMake/src/gnuwin32/Makefile
+  -empty_dir: branches/WinMake/src/gnuwin32/front-ends/Makefile
+  -empty_dir: branches/WinMake/src/gnuwin32/graphapp/Makefile
+r30075
+r30092
+  -empty_dir: branches/WinMake/src/gnuwin32/getline/Makefile
+r30093
+r30094
+  -empty_dir: branches/WinMake/src/gnuwin32/windlgs/src/Makevars

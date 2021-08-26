@@ -1,0 +1,13 @@
+r3784
+  -empty_dir: Attic
+  -empty_dir: debian/files
+  -empty_dir: doc/html/authors.html
+  -empty_dir: doc/html/search/index.txt
+  -empty_dir: doc/manual/ABOUT.tex
+  -empty_dir: doc/manual/Man.tex
+  +file_prop: doc/html/search/IndexEntry.class svn:mime-type application/octet-stream
+  +file_prop: doc/html/search/IndexStream.class svn:mime-type application/octet-stream
+  +file_prop: doc/html/search/IndexTable.class svn:mime-type application/octet-stream
+  +file_prop: doc/html/search/SearchEngine.class svn:mime-type application/octet-stream
+  +file_prop: doc/html/search/Tracer.class svn:mime-type application/octet-stream
+  +file_prop: doc/html/search/Value.class svn:mime-type application/octet-stream

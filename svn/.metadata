@@ -1,0 +1,7 @@
+; This file is used internally by git-svn
+; You should not have to edit it
+[svn-remote "svn"]
+	reposRoot = https://svn.r-project.org/R
+	uuid = 00db46b3-68df-0310-9c12-caf00c1e9a41
+	branches-maxRev = 80816
+	tags-maxRev = 80816
