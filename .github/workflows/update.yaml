@@ -31,41 +31,41 @@ jobs:
           # name.
           fetch-depth: 50
 
-      - name: Checkout r-source
-        # Temporarily use wch/rs instead of wch/r-source, until we're
-        # confident this will work reliably.
-        # This fetches all commits in the repo. Seems to be necessary for
-        # git-svn to be happy; otherwise it says "error: invalid object" for
-        # some files.
-        run: |
-          git clone https://github.com/wch/rs.git r-source
-          cd r-source
-          git checkout trunk
+      # - name: Checkout r-source
+      #   # Temporarily use wch/rs instead of wch/r-source, until we're
+      #   # confident this will work reliably.
+      #   # This fetches all commits in the repo. Seems to be necessary for
+      #   # git-svn to be happy; otherwise it says "error: invalid object" for
+      #   # some files.
+      #   run: |
+      #     git clone https://github.com/wch/rs.git r-source
+      #     cd r-source
+      #     git checkout trunk
 
-      - name: Symlink git-svn metadata to r-source/.git/svn
-        run: |
-          cd r-source/.git
-          ln -s ../../svn svn
+      # - name: Symlink git-svn metadata to r-source/.git/svn
+      #   run: |
+      #     cd r-source/.git
+      #     ln -s ../../svn svn
 
-      - name: Add svn-remote to .git/config
-        run: |-
-          cat <<EOF >> r-source/.git/config
-          [svn-remote "svn"]
-              url = https://svn.r-project.org/R
-              fetch = trunk:refs/remotes/Rsvn/trunk
-              branches = branches/*:refs/remotes/Rsvn/*
-              tags = tags/*:refs/remotes/Rsvn/tags/*
-          EOF
+      # - name: Add svn-remote to .git/config
+      #   run: |-
+      #     cat <<EOF >> r-source/.git/config
+      #     [svn-remote "svn"]
+      #         url = https://svn.r-project.org/R
+      #         fetch = trunk:refs/remotes/Rsvn/trunk
+      #         branches = branches/*:refs/remotes/Rsvn/*
+      #         tags = tags/*:refs/remotes/Rsvn/tags/*
+      #     EOF
 
-      - name: Fetch from SVN
-        # The `git gc` seems to fix "error: invalid object", when used along
-        # with the `fetch-depth: 0` above.
-        run: |
-          cd r-source
-          git checkout trunk
-          git gc
-          git svn fetch
-          git svn rebase
+      # - name: Fetch from SVN
+      #   # The `git gc` seems to fix "error: invalid object", when used along
+      #   # with the `fetch-depth: 0` above.
+      #   run: |
+      #     cd r-source
+      #     git checkout trunk
+      #     git gc
+      #     git svn fetch
+      #     git svn rebase
 
       # Set git config, needed for making commit in next step.
       - name: Git Config
@@ -78,13 +78,13 @@ jobs:
           git add svn
           git status
           git branch -a
-          git commit -m"Update git-svn metadata"
+          # git commit -m"Update git-svn metadata"
           git log --graph --pretty=tformat:'%h%d %s (%cr) <%an>' --abbrev-commit --all --date=relative -40
 
-      - name: Push to remote r-source
-        run: |
-          cd r-source
-          git push -n https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
+      # - name: Push to remote r-source
+      #   run: |
+      #     cd r-source
+      #     git push -n https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
 
 
       # Branch name from https://stackoverflow.com/a/60302058/412655
