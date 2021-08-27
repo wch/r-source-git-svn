@@ -71,6 +71,7 @@ jobs:
       - name: Commit to local r-source-git-svn
         run: |
           git add svn
+          git status
           git commit -m"Update git-svn metadata"
 
       # - name: Push to remote r-source
