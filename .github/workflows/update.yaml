@@ -58,7 +58,9 @@ jobs:
           cd r-source
           git checkout trunk
           git fsck
+          git status
           git svn fetch
+          git status
           git svn rebase
 
       - name: Commit to local r-source-git-svn
