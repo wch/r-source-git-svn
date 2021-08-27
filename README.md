@@ -25,7 +25,7 @@ The strategy used by GitHub Actions workflow is:
 
 ### Mirroring manually
 
-The same process can be done manually
+The same process can be done manually, with the commands below.
 
 ```bash
 git clone https://github.com/wch/r-source-git-svn.git
@@ -49,9 +49,8 @@ git checkout trunk
 git svn fetch
 git svn rebase
 
-# Push newly mirrord commits to r-source
+# Push newly mirrored commits to r-source
 git push
-
 
 # Commit changes to SVN metadata and push to r-source-git-svn
 cd ..
