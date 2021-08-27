@@ -66,6 +66,15 @@ jobs:
         # The `git gc` seems to fix "error: invalid object", when used along
         # with the `fetch-depth: 0` above.
         run: |
+          echo 1===
+          ls -l
+          echo 2===
+          ls -l refs
+          echo 3===
+          ls -l r-source/.git/refs/remotes
+          echo 4===
+          ls -l r-source/.git/refs/remotes/Rsvn/
+          echo 5===
           cd r-source
           git checkout trunk
           git gc
@@ -82,6 +91,15 @@ jobs:
         run: |
           git add svn refs
           git status
+          echo 1===
+          ls -l
+          echo 2===
+          ls -l refs
+          echo 3===
+          ls -l r-source/.git/refs/remotes
+          echo 4===
+          ls -l r-source/.git/refs/remotes/Rsvn/
+          echo 5===
           git branch -a
           git commit -m"Update git-svn metadata" || echo "No git-svn metadata changes to commit"
           git log --graph --pretty=tformat:'%h%d %s (%cr) <%an>' --abbrev-commit --all --date=relative -40
@@ -89,7 +107,7 @@ jobs:
       - name: Push to remote r-source
         run: |
           cd r-source
-          git push https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
+          git push -n https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
 
       - name: Push to remote r-source-git-svn (for pull requests)
         uses: r-lib/actions/pr-push@master
