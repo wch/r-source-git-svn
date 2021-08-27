@@ -62,7 +62,7 @@ git push
 
 # Commit changes to SVN metadata and push to r-source-git-svn
 cd ..
-git add svn
+git add svn refs
 git commit -m"Update from SVN"
 git push
 ```
