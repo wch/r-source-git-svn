@@ -80,6 +80,9 @@ jobs:
           git gc
           git svn fetch
           git svn rebase
+          echo 6===
+          git svn fetch
+          git svn rebase
 
       # Set git config, needed for making commit in next step.
       - name: Git Config
