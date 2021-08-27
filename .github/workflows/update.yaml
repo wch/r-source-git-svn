@@ -36,6 +36,8 @@ jobs:
       - name: Checkout r-source
         uses: actions/checkout@v2
         with:
+          # Temporarily use wch/rs instead of wch/r-source, until we're
+          # confident this will work reliably.
           repository: wch/rs
           path: r-source
           ref: trunk
@@ -60,7 +62,8 @@ jobs:
           EOF
 
       - name: Fetch from SVN
-        # The `git gc` seems to fix "error: invalid object".
+        # The `git gc` seems to fix "error: invalid object", when used along
+        # with the `fetch-depth: 0` above.
         run: |
           cd r-source
           git checkout trunk
@@ -75,9 +78,10 @@ jobs:
           git commit -m"Update git-svn metadata"
 
       # - name: Push to remote r-source
+      # This pushes all branches from Rsvn to origin
       #   run: |
       #     cd r-source
-      #     git push
+      #     git push origin refs/remotes/Rsvn/*:refs/heads/*
 
       # - name: Push to remote r-source-git-svn
       #   run:
