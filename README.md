@@ -3,7 +3,11 @@ R-source metadata for Git-SVN mirroring
 
 This repository uses GitHub Actions to do mirroring of R source code from the SVN repository at https://svn.r-project.org/R/, to the git repository at https://github.com/wch/r-source. (NOTE: it is currently mirroring to https://github.com/wch/rs for testing.)
 
-It contains a GitHub Actions workflow, as well as git-svn metadata in the `/svn/` directory.
+It contains:
+
+* A GitHub Actions workflow in `.github/workflows/`
+* git-svn metadata in `/svn/`
+* git-svn remote information in `refs/remotes/Rsvn`
 
 
 ## How it works
