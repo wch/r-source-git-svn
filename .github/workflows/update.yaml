@@ -84,7 +84,7 @@ jobs:
 
       - name: Push to remote r-source-git-svn
         # Push to the branch that we're currently on.
-        run:
+        run: |
           echo ${GITHUB_REF#refs/heads/}
           echo ====
           git push -n origin HEAD:${GITHUB_REF#refs/heads/}
