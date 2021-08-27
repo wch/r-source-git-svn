@@ -77,11 +77,10 @@ jobs:
           git status
           git commit -m"Update git-svn metadata"
 
-      # - name: Push to remote r-source
-      # This pushes all branches from Rsvn to origin
-      #   run: |
-      #     cd r-source
-      #     git push origin refs/remotes/Rsvn/*:refs/heads/*
+      - name: Push to remote r-source
+        run: |
+          cd r-source
+          git push origin refs/remotes/Rsvn/*:refs/heads/*
 
       # - name: Push to remote r-source-git-svn
       #   run:
