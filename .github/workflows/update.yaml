@@ -36,7 +36,7 @@ jobs:
       - name: Checkout r-source
         uses: actions/checkout@v2
         with:
-          repository: wch/r-source
+          repository: wch/rs
           path: r-source
           ref: trunk
           # This fetches all commits in the repo. Seems to be necessary for
@@ -71,8 +71,7 @@ jobs:
       - name: Commit to local r-source-git-svn
         run: |
           git add svn
-          git commit -m"Update for svn commit XX"
-          git log -2
+          git commit -m"Update git-svn metadata"
 
       # - name: Push to remote r-source
       #   run: |
