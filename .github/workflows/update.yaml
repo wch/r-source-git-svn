@@ -16,6 +16,10 @@ jobs:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
+      - name: Install git-svn
+        run: |
+          sudo apt-get -y install git-svn
+
       - name: Checkout r-source-git-svn
         uses: actions/checkout@v2
 
