@@ -57,8 +57,9 @@ jobs:
         run: |
           cd r-source
           git checkout trunk
-          git fsck
-          git status
+          git hash-object -w src/include/R_ext/GraphicsDevice.h
+          # git fsck
+          # git status
           git svn fetch
           git status
           git svn rebase
