@@ -40,8 +40,7 @@ jobs:
           cd r-source/.git
           pwd
           ls -l ../../
-          ls -l ../../r-source-git-svn
-          ln -s ../../r-source-git-svn/svn svn
+          ln -s ../../svn svn
           ls -l
           ls -l svn/
 
