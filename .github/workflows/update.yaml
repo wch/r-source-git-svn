@@ -24,14 +24,14 @@ jobs:
           sudo apt-get update
           sudo apt-get -y install git-svn
 
+      - name: Checkout r-source-git-svn
+        uses: actions/checkout@v2
+
       # Set git config, needed for making commits later.
       - name: Git Config
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-
-      - name: Checkout r-source-git-svn
-        uses: actions/checkout@v2
 
       - name: Checkout r-source
         uses: actions/checkout@v2
@@ -79,6 +79,6 @@ jobs:
       #     cd r-source
       #     git push
 
-      - name: Push to remote r-source-git-svn
-        run:
-          git push
+      # - name: Push to remote r-source-git-svn
+      #   run:
+      #     git push
