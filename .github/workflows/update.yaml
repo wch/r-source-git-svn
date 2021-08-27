@@ -63,8 +63,6 @@ jobs:
           EOF
 
       - name: Fetch from SVN
-        # The `git gc` seems to fix "error: invalid object", when used along
-        # with the `fetch-depth: 0` above.
         run: |
           cd r-source
           git checkout trunk
