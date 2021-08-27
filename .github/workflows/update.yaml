@@ -27,6 +27,8 @@ jobs:
       - name: Checkout r-source-git-svn
         uses: actions/checkout@v2
         with:
+          # Get HEAD commit instead of merge commit.
+          ref: ${{ github.event.pull_request.head.sha }}
           # Get 50 commits; without this we might not able to find the branch
           # name.
           fetch-depth: 50
@@ -98,4 +100,4 @@ jobs:
       - name: Push to remote r-source-git-svn
         # Push to the branch that we're currently on.
         run: |
-          git push -n origin HEAD:refs/heads/pull/${{ steps.vars.outputs.short_ref }}
+          git push -n origin HEAD:${{ steps.vars.outputs.short_ref }}
