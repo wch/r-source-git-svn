@@ -47,6 +47,11 @@ jobs:
           cd r-source/.git
           ln -s ../../svn svn
 
+      - name: Symlink refs/remotes/Rsvn metadata to r-source/refs/remotes/Rsvn
+        run: |
+          cd r-source/.git/refs/remotes
+          ln -s ../../../../refs/remotes/Rsvn
+
       - name: Add svn-remote to .git/config
         run: |-
           cat <<EOF >> r-source/.git/config

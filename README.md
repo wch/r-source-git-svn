@@ -17,6 +17,7 @@ The strategy used by GitHub Actions workflow is:
 * Clone this r-source-git-svn repository.
 * Clone the r-source repository, into `r-source-git-svn/r-source/`.
 * Symlink `r-source-git-svn/r-source/.git/svn` to point to `r-source-git-svn/svn/`.
+* Symlink the `r-source-git-svn/r-source/.git/refs/remotes/Rsvn` dir to `r-source-git-svn/refs/remotes/Rsvn/`.
 * Do the `git svn` steps for mirroring SVN commits to the local `r-source-git-svn/r-source/` repo. This will also update contents in the `.git/svn/` directory.
 * Commit the changes to `r-source-git-svn/svn/` (the files here have changed because `r-source-git-svn/r-source/.git/svn/` is a symlink to it).
 * Push the changes to the r-source repository.
@@ -33,7 +34,7 @@ cd r-source-git-svn
 
 git clone https://github.com/wch/r-source.git
 cd r-source/.git
-ln -s ../../svn 
+ln -s ../../svn
 
 cat <<EOF >> config
 [svn-remote "svn"]
@@ -43,7 +44,10 @@ cat <<EOF >> config
     tags = tags/*:refs/remotes/Rsvn/tags/*
 EOF
 
-cd ..
+cd refs/remotes
+ln -s ../../../../refs/remotes/Rsvn
+
+cd ../../..
 
 git checkout trunk
 git svn fetch
