@@ -7,7 +7,7 @@ on:
     branches: [main]
   schedule:
     # Once an hour, at 48 minutes past the hour.
-    - cron: "48 * * * *"
+    - cron: "11 * * * *"
 
 
 jobs:
@@ -27,7 +27,8 @@ jobs:
       - name: Checkout r-source-git-svn
         uses: actions/checkout@v2
         with:
-          # Get HEAD commit instead of merge commit.
+          # Get HEAD commit instead of merge commit, so that we can commit back
+          # into this branch.
           ref: ${{ github.event.pull_request.head.sha }}
           # Get 50 commits; without this we might not able to find the branch
           # name.
@@ -88,16 +89,23 @@ jobs:
       #     cd r-source
       #     git push -n https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
 
+      - name: Push to remote r-source-git-svn (for pull requests)
+        uses: r-lib/actions/pr-push@master
+        if: github.event_name == 'pull_request'
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
 
       # Branch name from https://stackoverflow.com/a/60302058/412655
-      - name: Find branch name
+      - name: Find branch name for r-source-git-svn
         id: vars
         run: echo ::set-output name=short_ref::${GITHUB_REF#refs/*/}
 
       - name: Check branch name
         run: echo ${{ steps.vars.outputs.short_ref }}
 
-      - name: Push to remote r-source-git-svn
+      - name: Push to remote r-source-git-svn (for scheduled runs on main branch)
+        if: github.event_name == 'schedule'
         # Push to the branch that we're currently on.
         run: |
           git push -n origin HEAD:${{ steps.vars.outputs.short_ref }}
