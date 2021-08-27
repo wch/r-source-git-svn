@@ -26,6 +26,10 @@ jobs:
 
       - name: Checkout r-source-git-svn
         uses: actions/checkout@v2
+        with:
+          # Get 50 commits; without this we might not able to find the branch
+          # name.
+          fetch-depth: 50
 
       - name: Checkout r-source
         # Temporarily use wch/rs instead of wch/r-source, until we're
@@ -82,6 +86,8 @@ jobs:
           cd r-source
           git push -n https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
 
+
+      # Branch name from https://stackoverflow.com/a/60302058/412655
       - name: Find branch name
         id: vars
         run: echo ::set-output name=short_ref::${GITHUB_REF#refs/*/}
@@ -91,7 +97,6 @@ jobs:
 
       - name: Push to remote r-source-git-svn
         # Push to the branch that we're currently on.
-        # Branch name from https://stackoverflow.com/a/68674820/412655
         run: |
           # Short name for current branch. For PRs, use target branch (base ref)
           echo ${{ steps.vars.outputs.short_ref }}
