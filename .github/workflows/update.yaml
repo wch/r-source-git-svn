@@ -30,7 +30,7 @@ jobs:
       - name: Checkout r-source
         uses: actions/checkout@v2
         with:
-          repository: wch/rs
+          repository: wch/r-source
           path: r-source
           ref: trunk
           # This fetches all commits in the repo. Seems to be necessary for
