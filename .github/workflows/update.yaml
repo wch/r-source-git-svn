@@ -62,30 +62,14 @@ jobs:
               tags = tags/*:refs/remotes/Rsvn/tags/*
           EOF
 
-      - name: Setup Debug Session
-        uses: csexton/debugger-action@master
-
       - name: Fetch from SVN
         # The `git gc` seems to fix "error: invalid object", when used along
         # with the `fetch-depth: 0` above.
         run: |
           cd r-source
-          echo 1===
-          ls -l .git/refs/remotes
-          echo 2===
-          ls -l .git/refs/remotes/Rsvn/
           git checkout trunk
-          git gc
-          echo 6===
-          ls -l .git/refs/remotes
-          echo 7===
-          ls -l .git/refs/remotes/Rsvn/
           git svn fetch
           git svn rebase
-          echo 8===
-          ls -l .git/refs/remotes
-          echo 9===
-          ls -l .git/refs/remotes/Rsvn/
 
       # Set git config, needed for making commit in next step.
       - name: Git Config
@@ -97,15 +81,6 @@ jobs:
         run: |
           git add svn refs
           git status
-          echo 1===
-          ls -l
-          echo 2===
-          ls -l refs
-          echo 3===
-          ls -l r-source/.git/refs/remotes
-          echo 4===
-          ls -l r-source/.git/refs/remotes/Rsvn/
-          echo 5===
           git branch -a
           git commit -m"Update git-svn metadata" || echo "No git-svn metadata changes to commit"
           git log --graph --pretty=tformat:'%h%d %s (%cr) <%an>' --abbrev-commit --all --date=relative -40
@@ -113,7 +88,7 @@ jobs:
       - name: Push to remote r-source
         run: |
           cd r-source
-          git push -n https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
+          git push https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
 
       - name: Push to remote r-source-git-svn (for pull requests)
         uses: r-lib/actions/pr-push@master
