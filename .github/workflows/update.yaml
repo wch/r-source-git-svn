@@ -18,7 +18,8 @@ jobs:
     steps:
       - name: Install git-svn
         run: |
-          sudo apt-get -y update
+          sudo add-apt-repository ppa:git-core/ppa -y
+          sudo apt-get update
           sudo apt-get -y install git-svn
 
       - name: Checkout r-source-git-svn
