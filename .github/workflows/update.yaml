@@ -80,7 +80,7 @@ jobs:
 
       - name: Commit to local r-source-git-svn
         run: |
-          git add svn
+          git add svn refs
           git status
           git branch -a
           git commit -m"Update git-svn metadata" || echo "No git-svn metadata changes to commit"
