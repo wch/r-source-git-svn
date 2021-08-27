@@ -33,6 +33,9 @@ jobs:
           repository: wch/r-source
           path: r-source
           ref: trunk
+          # This fetches all commits in the repo. Seems to be necessary for
+          # git-svn to be happy; otherwise it says "error: invalid object" for
+          # some files.
           fetch-depth: 0
 
       - name: Symlink git-svn metadata to r-source/.git/svn
@@ -54,8 +57,5 @@ jobs:
         run: |
           cd r-source
           git checkout trunk
-          git fsck
-          git status
           git svn fetch
-          git status
           git svn rebase
