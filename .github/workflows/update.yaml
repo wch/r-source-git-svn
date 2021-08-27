@@ -80,8 +80,11 @@ jobs:
       - name: Push to remote r-source
         run: |
           cd r-source
-          git push https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
+          git push -n https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
 
       - name: Push to remote r-source-git-svn
+        # Push to the branch that we're currently on.
         run:
-          git push
+          echo ${GITHUB_REF#refs/heads/}
+          echo ====
+          git push -n origin HEAD:${GITHUB_REF#refs/heads/}
