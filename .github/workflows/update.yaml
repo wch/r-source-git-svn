@@ -57,7 +57,7 @@ jobs:
         run: |
           cd r-source
           git checkout trunk
-          git gc
+          git svn gc
           git svn fetch
           git svn rebase
 
