@@ -17,6 +17,8 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Install git-svn
+        # The PPA seems to be necessary; otherwise installing git-svn doesn't
+        # work due to a version conflict with git.
         run: |
           sudo add-apt-repository ppa:git-core/ppa -y
           sudo apt-get update
@@ -36,7 +38,7 @@ jobs:
       - name: Symlink git-svn metadata to r-source/.git/svn
         run: |
           cd r-source/.git
-          ln -s /r-source-git-svn/svn svn
+          ln -s ../../r-source-git-svn/svn svn
           ls -l
 
       - name: Add svn-remote to .git/config
