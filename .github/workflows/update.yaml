@@ -67,6 +67,8 @@ jobs:
         # with the `fetch-depth: 0` above.
         run: |
           cd r-source
+          ls -l .git/refs/remotes
+          ls -l .git/refs/remotes/Rsvn/
           git checkout trunk
           git gc
           git svn fetch
