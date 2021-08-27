@@ -38,8 +38,12 @@ jobs:
       - name: Symlink git-svn metadata to r-source/.git/svn
         run: |
           cd r-source/.git
+          pwd
+          ls -l ../../
+          ls -l ../../r-source-git-svn
           ln -s ../../r-source-git-svn/svn svn
           ls -l
+          ls -l svn/
 
       - name: Add svn-remote to .git/config
         run: |-
