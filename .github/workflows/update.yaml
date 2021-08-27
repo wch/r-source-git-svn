@@ -73,13 +73,15 @@ jobs:
         run: |
           git add svn
           git status
+          git branch -a
           git commit -m"Update git-svn metadata"
+          git log -2
 
       - name: Push to remote r-source
         run: |
           cd r-source
           git push https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
 
-      # - name: Push to remote r-source-git-svn
-      #   run:
-      #     git push
+      - name: Push to remote r-source-git-svn
+        run:
+          git push
