@@ -1,0 +1,51 @@
+name: Fetch from SVN and push to git
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Once an hour, at 48 minutes past the hour.
+    - cron: "48 * * * *"
+
+
+jobs:
+  R-source-svn-update:
+    runs-on: ubuntu-20.04
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout r-source-git-svn
+        uses: actions/checkout@v2
+
+      - name: Checkout r-source
+        uses: actions/checkout@v2
+        with:
+          repository: wch/r-source
+          path: r-source
+          ref: trunk
+          fetch-depth: 40
+
+      - name: Symlink git-svn metadata to r-source/.git/svn
+        run: |
+          cd r-source/.git
+          ln -s /r-source-git-svn/svn svn
+          ls -l
+
+      - name: Add svn-remote to .git/config
+        run: |-
+          cat <<EOF >> r-source/.git/config
+          [svn-remote "svn"]
+              url = https://svn.r-project.org/R
+              fetch = trunk:refs/remotes/Rsvn/trunk
+              branches = branches/*:refs/remotes/Rsvn/*
+              tags = tags/*:refs/remotes/Rsvn/tags/*
+          EOF
+
+      - name: Fetch from SVN
+        run: |
+          cd r-source
+          git checkout trunk
+          git svn fetch
+          git svn rebase
