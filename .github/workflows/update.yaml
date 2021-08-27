@@ -30,9 +30,6 @@ jobs:
           # Get HEAD commit instead of merge commit, so that we can commit back
           # into this branch.
           ref: ${{ github.event.pull_request.head.sha }}
-          # Get 50 commits; without this we might not able to find the branch
-          # name.
-          fetch-depth: 50
 
       # - name: Checkout r-source
       #   # Temporarily use wch/rs instead of wch/r-source, until we're
