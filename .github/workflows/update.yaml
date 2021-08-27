@@ -36,7 +36,7 @@ jobs:
           # This fetches all commits in the repo. Seems to be necessary for
           # git-svn to be happy; otherwise it says "error: invalid object" for
           # some files.
-          fetch-depth: 0
+          fetch-depth: 40
 
       - name: Symlink git-svn metadata to r-source/.git/svn
         run: |
@@ -57,6 +57,7 @@ jobs:
         run: |
           cd r-source
           git checkout trunk
+          git fsck
           git svn fetch
           git svn rebase
 
