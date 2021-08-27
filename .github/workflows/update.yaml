@@ -54,6 +54,7 @@ jobs:
         run: |
           cd r-source
           git checkout trunk
+          git fsck
           git status
           git svn fetch
           git status
