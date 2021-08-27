@@ -66,28 +66,23 @@ jobs:
         # The `git gc` seems to fix "error: invalid object", when used along
         # with the `fetch-depth: 0` above.
         run: |
-          echo 1===
-          ls -l
-          echo 2===
-          ls -l refs
-          echo 3===
-          ls -l r-source/.git/refs/remotes
-          echo 4===
-          ls -l r-source/.git/refs/remotes/Rsvn/
-          echo 5===
           cd r-source
+          echo 1===
+          ls -l .git/refs/remotes
+          echo 2===
+          ls -l .git/refs/remotes/Rsvn/
           git checkout trunk
           git gc
           echo 6===
-          ls -l r-source/.git/refs/remotes
+          ls -l .git/refs/remotes
           echo 7===
-          ls -l r-source/.git/refs/remotes/Rsvn/
+          ls -l .git/refs/remotes/Rsvn/
           git svn fetch
           git svn rebase
           echo 8===
-          ls -l r-source/.git/refs/remotes
+          ls -l .git/refs/remotes
           echo 9===
-          ls -l r-source/.git/refs/remotes/Rsvn/
+          ls -l .git/refs/remotes/Rsvn/
 
       # Set git config, needed for making commit in next step.
       - name: Git Config
