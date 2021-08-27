@@ -98,6 +98,4 @@ jobs:
       - name: Push to remote r-source-git-svn
         # Push to the branch that we're currently on.
         run: |
-          # Short name for current branch. For PRs, use target branch (base ref)
-          echo ${{ steps.vars.outputs.short_ref }}
-          git push -n origin HEAD:${{ steps.vars.outputs.short_ref }}
+          git push -n origin HEAD:refs/heads/new-branch
