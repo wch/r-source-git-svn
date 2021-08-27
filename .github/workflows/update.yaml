@@ -6,8 +6,8 @@ on:
   pull_request:
     branches: [main]
   schedule:
-    # Once an hour, at 48 minutes past the hour.
-    - cron: "48 * * * *"
+    # Run once an hour.
+    - cron: "20 * * * *"
 
 
 jobs:
@@ -26,25 +26,21 @@ jobs:
 
       - name: Checkout r-source-git-svn
         uses: actions/checkout@v2
-
-      # Set git config, needed for making commits later.
-      - name: Git Config
-        run: |
-          git config user.name "${GITHUB_ACTOR}"
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        with:
+          # Get HEAD commit instead of merge commit, so that we can commit back
+          # into this branch.
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Checkout r-source
-        uses: actions/checkout@v2
-        with:
-          # Temporarily use wch/rs instead of wch/r-source, until we're
-          # confident this will work reliably.
-          repository: wch/rs
-          path: r-source
-          ref: trunk
-          # This fetches all commits in the repo. Seems to be necessary for
-          # git-svn to be happy; otherwise it says "error: invalid object" for
-          # some files.
-          fetch-depth: 0
+        # Temporarily use wch/rs instead of wch/r-source, until we're
+        # confident this will work reliably.
+        # This fetches all commits in the repo. Seems to be necessary for
+        # git-svn to be happy; otherwise it says "error: invalid object" for
+        # some files.
+        run: |
+          git clone https://github.com/wch/rs.git r-source
+          cd r-source
+          git checkout trunk
 
       - name: Symlink git-svn metadata to r-source/.git/svn
         run: |
@@ -71,18 +67,44 @@ jobs:
           git svn fetch
           git svn rebase
 
+      # Set git config, needed for making commit in next step.
+      - name: Git Config
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+
       - name: Commit to local r-source-git-svn
         run: |
           git add svn
           git status
-          git commit -m"Update git-svn metadata"
+          git branch -a
+          git commit -m"Update git-svn metadata" || echo "No git-svn metadata changes to commit"
+          git log --graph --pretty=tformat:'%h%d %s (%cr) <%an>' --abbrev-commit --all --date=relative -40
 
-      # - name: Push to remote r-source
-      # This pushes all branches from Rsvn to origin
-      #   run: |
-      #     cd r-source
-      #     git push origin refs/remotes/Rsvn/*:refs/heads/*
+      - name: Push to remote r-source
+        run: |
+          cd r-source
+          git push -n https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
 
-      # - name: Push to remote r-source-git-svn
-      #   run:
-      #     git push
+      - name: Push to remote r-source-git-svn (for pull requests)
+        uses: r-lib/actions/pr-push@master
+        if: github.event_name == 'pull_request'
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+
+      # Branch name from https://stackoverflow.com/a/60302058/412655
+      - name: Find branch name for r-source-git-svn
+        if: github.event_name == 'schedule'
+        id: vars
+        run: echo ::set-output name=short_ref::${GITHUB_REF#refs/*/}
+
+      - name: Check branch name
+        if: github.event_name == 'schedule'
+        run: echo ${{ steps.vars.outputs.short_ref }}
+
+      - name: Push to remote r-source-git-svn (for scheduled runs on main branch)
+        if: github.event_name == 'schedule'
+        # Push to the branch that we're currently on. (Should be main)
+        run: |
+          git push -n origin HEAD:${{ steps.vars.outputs.short_ref }}
