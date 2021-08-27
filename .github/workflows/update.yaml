@@ -78,7 +78,7 @@ jobs:
           git add svn
           git status
           git branch -a
-          # git commit -m"Update git-svn metadata"
+          git commit -m"Update git-svn metadata" || echo "No git-svn metadata changes to commit"
           git log --graph --pretty=tformat:'%h%d %s (%cr) <%an>' --abbrev-commit --all --date=relative -40
 
       # - name: Push to remote r-source
@@ -98,4 +98,4 @@ jobs:
       - name: Push to remote r-source-git-svn
         # Push to the branch that we're currently on.
         run: |
-          git push -n origin HEAD:refs/heads/new-branch
+          git push -n origin HEAD:refs/heads/pull/${{ steps.vars.outputs.short_ref }}
