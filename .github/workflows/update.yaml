@@ -78,11 +78,16 @@ jobs:
           cd r-source
           git checkout trunk
           git gc
-          git svn fetch
-          git svn rebase
           echo 6===
+          ls -l r-source/.git/refs/remotes
+          echo 7===
+          ls -l r-source/.git/refs/remotes/Rsvn/
           git svn fetch
           git svn rebase
+          echo 8===
+          ls -l r-source/.git/refs/remotes
+          echo 9===
+          ls -l r-source/.git/refs/remotes/Rsvn/
 
       # Set git config, needed for making commit in next step.
       - name: Git Config
