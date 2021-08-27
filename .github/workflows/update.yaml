@@ -75,17 +75,24 @@ jobs:
           git status
           git branch -a
           git commit -m"Update git-svn metadata"
-          git log -2
+          git log --graph --pretty=tformat:'%h%d %s (%cr) <%an>' --abbrev-commit --all --date=relative -40
 
       - name: Push to remote r-source
         run: |
           cd r-source
           git push -n https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
 
+      - name: Find branch name
+        id: vars
+        run: echo ::set-output name=short_ref::${GITHUB_REF#refs/*/}
+
+      - name: Check branch name
+        run: echo ${{ steps.vars.outputs.short_ref }}
+
       - name: Push to remote r-source-git-svn
         # Push to the branch that we're currently on.
+        # Branch name from https://stackoverflow.com/a/68674820/412655
         run: |
           # Short name for current branch. For PRs, use target branch (base ref)
-          GIT_BRANCH=${GITHUB_BASE_REF:-${GITHUB_REF#refs/heads/}}
-          echo "GIT_BRANCH=$GIT_BRANCH"
-          git push -n origin HEAD:$GIT_BRANCH
+          echo ${{ steps.vars.outputs.short_ref }}
+          git push -n origin HEAD:${{ steps.vars.outputs.short_ref }}
