@@ -109,4 +109,4 @@ jobs:
         if: github.event_name == 'schedule' || github.event_name == 'push'
         # Push to the branch that we're currently on. (Should be main)
         run: |
-          git push -n origin HEAD:${{ steps.vars.outputs.short_ref }}
+          git push origin HEAD:${{ steps.vars.outputs.short_ref }}
