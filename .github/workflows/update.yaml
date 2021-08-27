@@ -33,7 +33,7 @@ jobs:
           repository: wch/r-source
           path: r-source
           ref: trunk
-          fetch-depth: 40
+          fetch-depth: 0
 
       - name: Symlink git-svn metadata to r-source/.git/svn
         run: |
