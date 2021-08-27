@@ -7,7 +7,7 @@ on:
     branches: [main]
   schedule:
     # Run once an hour.
-    - cron: "20 * * * *"
+    - cron: "26 * * * *"
 
 
 jobs:
@@ -84,7 +84,7 @@ jobs:
       - name: Push to remote r-source
         run: |
           cd r-source
-          git push -n https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
+          git push https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
 
       - name: Push to remote r-source-git-svn (for pull requests)
         uses: r-lib/actions/pr-push@master
@@ -93,18 +93,20 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
 
 
+      # The steps below are meant to run on the main branch, either with a
+      # push or scheduled run.
       # Branch name from https://stackoverflow.com/a/60302058/412655
       - name: Find branch name for r-source-git-svn
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || github.event_name == 'push'
         id: vars
         run: echo ::set-output name=short_ref::${GITHUB_REF#refs/*/}
 
       - name: Check branch name
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || github.event_name == 'push'
         run: echo ${{ steps.vars.outputs.short_ref }}
 
       - name: Push to remote r-source-git-svn (for scheduled runs on main branch)
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || github.event_name == 'push'
         # Push to the branch that we're currently on. (Should be main)
         run: |
           git push -n origin HEAD:${{ steps.vars.outputs.short_ref }}
