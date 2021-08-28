@@ -78,9 +78,17 @@ jobs:
       - name: Commit to local r-source-git-svn
         run: |
           git add svn refs
+          echo "==== git status ===="
           git status
+          echo "==== git branch -a ===="
           git branch -a
-          git commit -m"Update git-svn metadata" || echo "No git-svn metadata changes to commit"
+
+          echo "==== Finding git and svn commit IDs ===="
+          SVN_ID=$(git -C r-source/ log --format=%B -n 1 | grep ^git-svn-id | sed -E 's/^git-svn-id: https:\/\/svn.r-project.org\/R\/[^@]*@([0-9]+).*$/\1/')
+          GIT_ID=$(git -C r-source/ rev-parse --short HEAD)
+
+          echo "==== Committing to local copy of r-source-git-svn ===="
+          git commit -m"Update git-svn metadata; last git commit was ${GIT_ID}, svn-id ${GIT_ID}" || echo "No git-svn metadata changes to commit"
 
       # I believe it may be possible for a `git gc` to be triggered from the
       # commands above. If it happens, then the .git/refs/remotes/Rsvn directory
