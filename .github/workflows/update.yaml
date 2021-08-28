@@ -81,7 +81,19 @@ jobs:
           git status
           git branch -a
           git commit -m"Update git-svn metadata" || echo "No git-svn metadata changes to commit"
-          git log --graph --pretty=tformat:'%h%d %s (%cr) <%an>' --abbrev-commit --all --date=relative -40
+
+      # I believe it may be possible for a `git gc` to be triggered from the
+      # commands above. If it happens, then the .git/refs/remotes/Rsvn directory
+      # will be emptied, which will cause breakage. Make sure the files are
+      # still there.
+      - name: Check that refs/remotes/Rsvn still has contents
+        run: |
+          FILE_COUNT=$(find refs/remotes/Rsvn -type f | wc -l)
+          if [ $FILE_COUNT == 0 ]; then
+            echo "Files in r-source/.git/refs/remotes/Rsvn were removed, which will cause problems."
+            echo "A git gc may have occurred when executing previous git commands."
+            exit 1
+          fi
 
       - name: Push to remote r-source
         run: |
