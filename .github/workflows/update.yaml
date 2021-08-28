@@ -83,12 +83,14 @@ jobs:
           echo "==== git branch -a ===="
           git branch -a
 
-          echo "==== Finding git and svn commit IDs ===="
+          echo "==== Finding git and svn IDs of most recent commit on trunk ===="
           SVN_ID=$(git -C r-source/ log --format=%B -n 1 | grep ^git-svn-id | sed -E 's/^git-svn-id: https:\/\/svn.r-project.org\/R\/[^@]*@([0-9]+).*$/\1/')
+          echo SVN_ID: ${SVN_ID}
           GIT_ID=$(git -C r-source/ rev-parse --short HEAD)
+          echo GIT_ID: ${GIT_ID}
 
           echo "==== Committing to local copy of r-source-git-svn ===="
-          git commit -m"Update git-svn metadata; last git commit was ${GIT_ID}, svn-id ${GIT_ID}" || echo "No git-svn metadata changes to commit"
+          git commit -m"Update git-svn metadata; last git commit was ${GIT_ID}, svn-id ${GIT_ID}" || echo "No git-svn metadata changes to commit."
 
       # I believe it may be possible for a `git gc` to be triggered from the
       # commands above. If it happens, then the .git/refs/remotes/Rsvn directory
