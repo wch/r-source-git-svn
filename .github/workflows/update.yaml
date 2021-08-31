@@ -24,14 +24,14 @@ jobs:
           sudo apt-get update
           sudo apt-get -y install git-svn
 
-      - name: Checkout r-source-git-svn
+      - name: Check out r-source-git-svn
         uses: actions/checkout@v2
         with:
           # Get HEAD commit instead of merge commit, so that we can commit back
           # into this branch.
           ref: ${{ github.event.pull_request.head.sha }}
 
-      - name: Checkout r-source
+      - name: Check out r-source
         # Temporarily use wch/rs instead of wch/r-source, until we're
         # confident this will work reliably.
         # This fetches all commits in the repo. Seems to be necessary for
@@ -45,7 +45,7 @@ jobs:
       - name: Symlink git-svn metadata to r-source/.git/svn
         run: |
           cd r-source/.git
-          ln -s ../../svn svn
+          ln -s ../../svn
 
       - name: Symlink refs/remotes/Rsvn metadata to r-source/refs/remotes/Rsvn
         run: |
@@ -53,7 +53,7 @@ jobs:
           ln -s ../../../../refs/remotes/Rsvn
 
       - name: Add svn-remote to .git/config
-        run: |-
+        run: |
           cat <<EOF >> r-source/.git/config
           [svn-remote "svn"]
               url = https://svn.r-project.org/R
@@ -62,7 +62,7 @@ jobs:
               tags = tags/*:refs/remotes/Rsvn/tags/*
           EOF
 
-      - name: Fetch from SVN
+      - name: Fetch from SVN to local r-source
         run: |
           cd r-source
           git checkout trunk
