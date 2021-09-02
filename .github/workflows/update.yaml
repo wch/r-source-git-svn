@@ -90,7 +90,7 @@ jobs:
           echo GIT_ID: ${GIT_ID}
 
           echo "==== Committing to local copy of r-source-git-svn ===="
-          git commit -m"Update git-svn metadata; last git commit was ${GIT_ID}, svn-id ${GIT_ID}" || echo "No git-svn metadata changes to commit."
+          git commit -m"Update git-svn metadata; last git commit was ${GIT_ID}, svn-id ${SVN_ID}" || echo "No git-svn metadata changes to commit."
 
       # I believe it may be possible for a `git gc` to be triggered from the
       # commands above. If it happens, then the .git/refs/remotes/Rsvn directory
