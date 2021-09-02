@@ -31,14 +31,23 @@ jobs:
           # into this branch.
           ref: ${{ github.event.pull_request.head.sha }}
 
+      - name: Setup SSH key for r-source
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+          ssh-add - <<< "${{ secrets.SSH_KEY }}"
+
       - name: Check out r-source
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         # Temporarily use wch/rs instead of wch/r-source, until we're
         # confident this will work reliably.
         # This fetches all commits in the repo. Seems to be necessary for
         # git-svn to be happy; otherwise it says "error: invalid object" for
         # some files.
         run: |
-          git clone https://github.com/wch/rs.git r-source
+          git clone git@github.com:wch/rs.git r-source
           cd r-source
           git checkout trunk
 
@@ -106,9 +115,11 @@ jobs:
           fi
 
       - name: Push to remote r-source
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
           cd r-source
-          git push https://wch:${{ secrets.PAT_FOR_GITHUB }}@github.com/wch/rs.git refs/remotes/Rsvn/*:refs/heads/*
+          git push origin refs/remotes/Rsvn/*:refs/heads/*
 
       - name: Push to remote r-source-git-svn (for pull requests)
         uses: r-lib/actions/pr-push@master
