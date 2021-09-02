@@ -62,8 +62,8 @@ git checkout trunk
 git svn fetch
 git svn rebase
 
-# Push newly mirrored commits to r-source
-git push
+# Push all branches from Rsvn to origin (r-source)
+git push origin refs/remotes/Rsvn/*:refs/heads/*
 
 # Commit changes to SVN metadata and push to r-source-git-svn
 cd ..
