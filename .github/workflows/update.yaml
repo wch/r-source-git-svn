@@ -31,7 +31,11 @@ jobs:
           # into this branch.
           ref: ${{ github.event.pull_request.head.sha }}
 
-      - name: Setup SSH key for r-source
+      # Use SSH deploy key to push to the r-source repo. This is a safer (but
+      # more complicated) than using a PAT because the deploy key can be scoped
+      # to a single repository, while a PAT grants access to all repositories
+      # for a user.
+      - name: Set up SSH key for r-source
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
