@@ -45,13 +45,11 @@ jobs:
       - name: Check out r-source
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        # Temporarily use wch/rs instead of wch/r-source, until we're
-        # confident this will work reliably.
         # This fetches all commits in the repo. Seems to be necessary for
         # git-svn to be happy; otherwise it says "error: invalid object" for
         # some files.
         run: |
-          git clone git@github.com:wch/rs.git r-source
+          git clone git@github.com:wch/r-source.git r-source
           cd r-source
           git checkout trunk
 
