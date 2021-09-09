@@ -17,9 +17,9 @@ The process of mirroring the SVN repository involves two git repositories:
 * r-source-git-svn (this one), which contains git-svn metadata
 * r-source, which is a git repository which mirrors the SVN repository
 
-A git repository which is set up to mirror a SVN repository using `git-svn` contains a directory `/.git/svn`, which has metadata about the mappings between SVN and git commits.
+A git repository which is set up to mirror a SVN repository using `git-svn` (in this case the repository is `r-source`) contains a directory `/.git/svn`, which has metadata about the mappings between SVN and git commits.
 
-The `/.git/svn` directory does _not_ get pushed to remote git repositories. Normally that's not a problem because the repository persists on disk. However, with GitHub Actions, there is not persistent storage, so we need to save the `/.git/svn/` metadata some other way. We do it here by storing it in `/svn/`, and then symlinking it to `r-source/.git/svn/` every time the workflow runs.
+The `r-source/.git/svn` directory does _not_ get pushed to remote git repositories. Normally that's not a problem because the repository persists on disk. However, with GitHub Actions, there is not persistent storage, so we need to save the `r-source/.git/svn/` metadata some other way. We do it here by storing it in `r-source-git-svn/svn/`, and then creating a symlink from `r-source/.git/svn/` pointing to it, every time the workflow runs.
 
 The strategy used by GitHub Actions workflow is:
 
