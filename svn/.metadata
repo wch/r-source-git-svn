@@ -3,5 +3,5 @@
 [svn-remote "svn"]
 	reposRoot = https://svn.r-project.org/R
 	uuid = 00db46b3-68df-0310-9c12-caf00c1e9a41
-	branches-maxRev = 81055
-	tags-maxRev = 81055
+	branches-maxRev = 81057
+	tags-maxRev = 81057
