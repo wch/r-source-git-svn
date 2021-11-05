@@ -9822,3 +9822,5 @@ r81137
 r81139
 r81140
 r81141
+r81142
+  -empty_dir: trunk/src/gnuwin32/front-ends/Renviron.c
