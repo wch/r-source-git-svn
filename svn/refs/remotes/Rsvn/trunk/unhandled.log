@@ -9838,3 +9838,12 @@ r81153
 r81155
 r81156
 r81157
+r81158
+  +file_prop: trunk/src/library/translations/inst/lt/LC_MESSAGES/R-methods.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/lt/LC_MESSAGES/R-splines.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/lt/LC_MESSAGES/R-tools.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/lt/LC_MESSAGES/tools.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/zh_TW/LC_MESSAGES/R-methods.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/zh_TW/LC_MESSAGES/R-tools.mo svn:mime-type application/x-gettext-translation
+r81159
+r81160
