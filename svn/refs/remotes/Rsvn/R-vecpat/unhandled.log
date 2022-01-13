@@ -5,3 +5,5 @@ r81396
 r81397
 r81398
 r81400
+r81482
+  +dir_prop: branches/R-vecpat svn:mergeinfo /branches/R-2-12-branch:52939%2C54476%2C55265%0A/branches/R-2-13-branch:55265%2C55432%0A/branches/R-2-15-branch:58894%2C59717%0A/branches/R-3-0-branch:62497%0A/branches/R-3-1-branch:65920%0A/branches/R-3-6-branch:76839%2C77241%0A/branches/R-4-1-branch:80314%0A/branches/R-DL:69025-69313%0A/branches/R-conflicts:75454-76247%0A/branches/R-defs:77464-78758%0A/branches/R-glmscore:55360-55826%0A/branches/R-groups:80166-81095%0A/branches/R-structure:81439%0A/branches/R-symfam:78109-78182%0A/branches/R-ucrt:81323-81359%0A/trunk:81391-81481
