@@ -400,3 +400,5 @@ r81630
   +file_prop: branches/R-is/trunk/tests/reg-IO.R svn:mime-type application/octet-stream
   +file_prop: branches/R-is/trunk/tests/reg-plot-latin1.pdf.save svn:mime-type application/pdf
   +file_prop: branches/R-is/trunk/tests/reg-plot.pdf.save svn:mime-type application/pdf
+r81631
+  -empty_dir: branches/R-is/trunk
