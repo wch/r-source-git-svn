@@ -10387,3 +10387,8 @@ r81879
 r81880
 r81881
 r81882
+r81883
+  -empty_dir: trunk/share/texmf/tex/latex/omsaer.fd
+  -empty_dir: trunk/share/texmf/tex/latex/omsaett.fd
+  -empty_dir: trunk/share/texmf/tex/latex/ts1aer.fd
+  -empty_dir: trunk/share/texmf/tex/latex/ts1aett.fd
