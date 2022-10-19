@@ -134,7 +134,7 @@ jobs:
       - name: Find branch name for r-source-git-svn
         if: github.event_name == 'schedule' || github.event_name == 'push'
         id: vars
-        run: echo ::set-output name=short_ref::${GITHUB_REF#refs/*/}
+        run: echo "short_ref=${GITHUB_REF#refs/*/}" >> $GITHUB_OUTPUT
 
       - name: Check branch name
         if: github.event_name == 'schedule' || github.event_name == 'push'
