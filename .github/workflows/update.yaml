@@ -122,7 +122,7 @@ jobs:
           git push origin refs/remotes/Rsvn/*:refs/heads/*
 
       - name: Push to remote r-source-git-svn (for pull requests)
-        uses: r-lib/actions/pr-push@master
+        uses: r-lib/actions/pr-push@v2
         if: github.event_name == 'pull_request'
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
