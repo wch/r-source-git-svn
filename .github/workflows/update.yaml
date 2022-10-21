@@ -29,28 +29,14 @@ jobs:
           # into this branch.
           ref: ${{ github.event.pull_request.head.sha }}
 
-      # Use SSH deploy key to push to the r-source repo. This is a safer (but
-      # more complicated) than using a PAT because the deploy key can be scoped
-      # to a single repository, while a PAT grants access to all repositories
-      # for a user.
-      - name: Set up SSH key for r-source
-        env:
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        run: |
-          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
-          ssh-add - <<< "${{ secrets.SSH_KEY }}"
-
       - name: Check out r-source
-        env:
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         # This fetches all commits in the repo. Seems to be necessary for
         # git-svn to be happy; otherwise it says "error: invalid object" for
         # some files.
         run: |
-          git clone git@github.com:wch/r-source.git r-source
+          git clone https://wch:${{secrets.R_SOURCE_PAT}}@github.com/wch/r-source.git r-source
           cd r-source
           git checkout trunk
-
       - name: Symlink git-svn metadata to r-source/.git/svn
         run: |
           cd r-source/.git
@@ -115,11 +101,9 @@ jobs:
           fi
 
       - name: Push to remote r-source
-        env:
-          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
           cd r-source
-          git push origin refs/remotes/Rsvn/*:refs/heads/*
+          git push -n origin refs/remotes/Rsvn/*:refs/heads/*
 
       - name: Push to remote r-source-git-svn (for pull requests)
         uses: r-lib/actions/pr-push@v2
