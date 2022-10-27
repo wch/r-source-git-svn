@@ -11393,3 +11393,10 @@ r83185
 r83186
 r83187
 r83189
+r83190
+r83191
+r83192
+  -empty_dir: trunk/src/library/Recommended/.cvsignore
+  -dir_prop: trunk svn.ignore
+  -file_prop: trunk/src/nmath/qDiscrete_search.h svn:keywords
+r83193
