@@ -98,3 +98,9 @@ r83654
 r83656
 r83657
 r83658
+r83667
+r83668
+  +file_prop: branches/R-typeset/src/library/grDevices/inst/fonts/Montserrat/static/Montserrat-BoldItalic.ttf svn:mime-type application/octet-stream
+  +file_prop: branches/R-typeset/src/library/grDevices/inst/fonts/Montserrat/static/Montserrat-Medium.ttf svn:mime-type application/octet-stream
+  +file_prop: branches/R-typeset/src/library/grDevices/inst/fonts/Roboto/Roboto-Medium.ttf svn:mime-type application/octet-stream
+r83669
