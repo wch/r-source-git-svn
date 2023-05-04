@@ -12321,3 +12321,6 @@ r84387
 r84388
 r84389
 r84391
+r84393
+r84394
+  -empty_dir: trunk/tests/httpbin.R
