@@ -12554,3 +12554,5 @@ r84679
 r84680
 r84681
 r84682
+r84683
+  -empty_dir: trunk/tests/encodings.R
