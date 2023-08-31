@@ -12875,3 +12875,8 @@ r85028
 r85030
 r85031
 r85032
+r85033
+r85034
+r85035
+  -empty_dir: trunk/src/gnuwin32/installer/reg3264.iss
+  -empty_dir: trunk/src/gnuwin32/installer/types3264.iss
