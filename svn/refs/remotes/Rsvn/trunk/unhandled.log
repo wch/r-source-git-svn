@@ -13486,3 +13486,21 @@ r85737
 r85739
 r85741
 r85742
+r85743
+  +file_prop: trunk/src/library/grDevices/tests/ref-macOS/PDF-encoding.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/Encoding3.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/PDF-cyrillic.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/PDF-encoding.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/PDF-latin2.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/pdf-CP1250.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/pdf-CP1251.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/pdf-CP1253.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/pdf-CP1257.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/pdf-Greek.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/pdf-ISOLatin1.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/pdf-ISOLatin2.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/pdf-ISOLatin7.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/pdf-ISOLatin9.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/pdf-KOI8-R.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/pdf-KOI8-U.pdf svn:mime-type application/pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/pdf-WinAnsi.pdf svn:mime-type application/pdf
