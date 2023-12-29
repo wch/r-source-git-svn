@@ -13507,3 +13507,8 @@ r85743
 r85744
 r85745
 r85746
+r85747
+  -empty_dir: trunk/src/library/grDevices/tests/ref/PDF-cyrillic.pdf
+  +file_prop: trunk/src/library/grDevices/tests/ref/pdf-Cyrillic.pdf svn:mime-type application/pdf
+r85748
+r85749
