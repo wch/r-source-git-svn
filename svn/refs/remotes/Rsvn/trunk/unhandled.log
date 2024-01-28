@@ -13588,3 +13588,6 @@ r85830
 r85832
 r85833
 r85835
+r85836
+  -empty_dir: trunk/src/library/base/man/isR.Rd
+r85837
