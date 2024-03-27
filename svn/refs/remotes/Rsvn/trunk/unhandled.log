@@ -13937,3 +13937,5 @@ r86206
 r86209
 r86210
 r86211
+r86213
+  -empty_dir: trunk/configure.patch
