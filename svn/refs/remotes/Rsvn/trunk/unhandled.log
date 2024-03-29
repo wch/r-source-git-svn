@@ -13950,3 +13950,8 @@ r86222
 r86224
 r86225
 r86227
+r86229
+  +file_prop: trunk/src/library/translations/inst/ar/LC_MESSAGES/RGui.mo svn:mime-type application/octet-stream
+  +file_prop: trunk/src/library/translations/inst/ca/LC_MESSAGES/RGui.mo svn:mime-type application/octet-stream
+  +file_prop: trunk/src/library/translations/inst/en_GB/LC_MESSAGES/RGui.mo svn:mime-type application/octet-stream
+  +file_prop: trunk/src/library/translations/inst/hu/LC_MESSAGES/RGui.mo svn:mime-type application/octet-stream
