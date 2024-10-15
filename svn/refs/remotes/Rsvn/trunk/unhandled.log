@@ -14895,3 +14895,6 @@ r87233
 r87234
 r87235
 r87236
+r87237
+  +file_prop: trunk/src/library/stats/src/statsErr.h svn:eol-style native
+r87238
