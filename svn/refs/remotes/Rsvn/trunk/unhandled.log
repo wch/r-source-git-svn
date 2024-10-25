@@ -14919,3 +14919,21 @@ r87261
 r87262
 r87263
 r87264
+r87266
+r87267
+r87268
+  +file_prop: trunk/src/library/translations/inst/es/LC_MESSAGES/R-compiler.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/es/LC_MESSAGES/R-splines.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/es/LC_MESSAGES/R-tcltk.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/es/LC_MESSAGES/grid.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/es/LC_MESSAGES/methods.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/es/LC_MESSAGES/splines.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/hu/LC_MESSAGES/R-compiler.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/hu/LC_MESSAGES/R-methods.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/hu/LC_MESSAGES/R-stats4.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/hu/LC_MESSAGES/splines.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/ne/LC_MESSAGES/R-base.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/ne/LC_MESSAGES/R-parallel.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/ne/LC_MESSAGES/R-tcltk.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/ne/LC_MESSAGES/R-tools.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/ne/LC_MESSAGES/R-utils.mo svn:mime-type application/x-gettext-translation
