@@ -15364,3 +15364,6 @@ r87770
 r87773
 r87774
 r87775
+r87776
+  +file_prop: trunk/src/library/datasets/data/penguins.rda svn:mime-type application/gzip
+r87777
