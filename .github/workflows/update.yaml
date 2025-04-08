@@ -12,7 +12,7 @@ on:
 
 jobs:
   R-source-svn-update:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Install git-svn
         # The PPA seems to be necessary; otherwise installing git-svn doesn't
