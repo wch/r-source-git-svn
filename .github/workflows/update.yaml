@@ -15,10 +15,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Install git-svn
-        # The PPA seems to be necessary; otherwise installing git-svn doesn't
-        # work due to a version conflict with git.
         run: |
-          sudo add-apt-repository ppa:git-core/ppa -y
           sudo apt-get update
           sudo apt-get -y install git-svn
 
