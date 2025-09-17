@@ -16305,3 +16305,8 @@ r88847
 r88848
 r88849
 r88850
+r88851
+  -empty_dir: trunk/share/dictionaries/R_Rd_files.rds
+  -empty_dir: trunk/share/dictionaries/R_manuals.rds
+  -empty_dir: trunk/share/dictionaries/R_vignettes.rds
+  -empty_dir: trunk/share/dictionaries/en_stats.rds
