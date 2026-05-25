@@ -17320,3 +17320,32 @@ r90070
 r90071
 r90072
 r90074
+r90076
+  +file_prop: trunk/src/library/translations/inst/ar/LC_MESSAGES/R-compiler.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/ar/LC_MESSAGES/R-graphics.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/cs/LC_MESSAGES/R-stats.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/cs/LC_MESSAGES/R-stats4.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/cs/LC_MESSAGES/R-utils.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/id/LC_MESSAGES/R-compiler.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/id/LC_MESSAGES/R-grDevices.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/id/LC_MESSAGES/R-graphics.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/id/LC_MESSAGES/R-tools.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/id/LC_MESSAGES/R-utils.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/id/LC_MESSAGES/R.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/id/LC_MESSAGES/RGui.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/id/LC_MESSAGES/grDevices.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/id/LC_MESSAGES/graphics.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/id/LC_MESSAGES/stats.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/id/LC_MESSAGES/tools.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/id/LC_MESSAGES/utils.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/nl/LC_MESSAGES/R-base.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/nl/LC_MESSAGES/R-utils.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/nl/LC_MESSAGES/R.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/nl/LC_MESSAGES/RGui.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/nl/LC_MESSAGES/grDevices.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/nl/LC_MESSAGES/graphics.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/nl/LC_MESSAGES/parallel.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/nl/LC_MESSAGES/stats.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/nl/LC_MESSAGES/tools.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/nl/LC_MESSAGES/utils.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/pt_BR/LC_MESSAGES/parallel.mo svn:mime-type application/x-gettext-translation
