@@ -17455,3 +17455,5 @@ r90203
 r90204
 r90205
 r90206
+r90207
+  +file_prop: trunk/src/library/stats/src/cov_kendall.c svn:eol-style native
