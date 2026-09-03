@@ -17691,3 +17691,9 @@ r90471
 r90472
 r90473
 r90474
+r90475
+  +file_prop: trunk/src/library/translations/inst/ar/LC_MESSAGES/R-grDevices.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/ar/LC_MESSAGES/R-grid.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/ar/LC_MESSAGES/grid.mo svn:mime-type application/x-gettext-translation
+  +file_prop: trunk/src/library/translations/inst/da/LC_MESSAGES/utils.mo svn:mime-type application/x-gettext-translation
+r90476
